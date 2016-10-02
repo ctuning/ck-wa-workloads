@@ -1,0 +1,10 @@
+{
+  "data_name": "ck-wa-workloads",
+  "dict": {
+    "shared": "git",
+    "url": "https://github.com/ctuning/ck-wa-workloads"
+  },
+  "data_uoa": "ck-wa-workloads",
+  "data_alias": "ck-wa-workloads",
+  "data_uid": "cca2211feceec6dc"
+}
