@@ -6,10 +6,11 @@
   "clean_dirs": [
     "wa_output"
   ],
-  "data_name": "WA workload: w",
+  "data_name": "WA workload: glb_corporate",
   "deps": {
     "wa": {
       "env_key": "WA",
+      "force_target_as_host": "yes",
       "local": "yes",
       "name": "ARM Workload Automation",
       "sort": 10,

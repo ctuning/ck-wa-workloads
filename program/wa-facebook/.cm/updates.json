@@ -27,6 +27,34 @@
         "8",
         "3dev"
       ]
+    },
+    {
+      "author": "cTuning foundation",
+      "author_email": "admin@cTuning.org",
+      "author_webpage": "http://cTuning.org",
+      "copyright": "See CK COPYRIGHT.txt for copyright details",
+      "engine": "CK",
+      "iso_datetime": "2016-10-02T23:41:44.526723",
+      "license": "See CK LICENSE.txt for licensing details",
+      "version": [
+        "1",
+        "8",
+        "3dev"
+      ]
+    },
+    {
+      "author": "cTuning foundation",
+      "author_email": "admin@cTuning.org",
+      "author_webpage": "http://cTuning.org",
+      "copyright": "See CK COPYRIGHT.txt for copyright details",
+      "engine": "CK",
+      "iso_datetime": "2016-10-02T23:42:32.300124",
+      "license": "See CK LICENSE.txt for licensing details",
+      "version": [
+        "1",
+        "8",
+        "3dev"
+      ]
     }
   ]
 }
