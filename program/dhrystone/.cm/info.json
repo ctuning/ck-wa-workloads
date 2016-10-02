@@ -1,0 +1,17 @@
+{
+  "backup_data_uid": "39b81533ec3ccb56",
+  "backup_module_uid": "b0ac08fe1d3c2615",
+  "backup_module_uoa": "program",
+  "control": {
+    "copyright": "See CK COPYRIGHT for copyright details",
+    "engine": "CK",
+    "iso_datetime": "2016-09-26T16:06:26.619768",
+    "license": "See CK LICENSE for licensing details",
+    "version": [
+      "1",
+      "8",
+      "2dev"
+    ]
+  },
+  "data_name": "dhrystone-ck"
+}

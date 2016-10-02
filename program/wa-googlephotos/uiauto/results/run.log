@@ -1,0 +1,672 @@
+2016-09-16 23:28:06,414 INFO     Executor: Initializing
+2016-09-16 23:28:06,415 DEBUG    ExtensionLoader: Checking module wlauto.result_processors
+2016-09-16 23:28:06,415 DEBUG    ExtensionLoader: Checking module wlauto.result_processors.cpustate
+2016-09-16 23:28:06,415 DEBUG    ExtensionLoader: 	Adding result_processor cpustates
+2016-09-16 23:28:06,415 DEBUG    ExtensionLoader: Checking module wlauto.result_processors.dvfs
+2016-09-16 23:28:06,416 DEBUG    ExtensionLoader: 	Adding result_processor dvfs
+2016-09-16 23:28:06,416 DEBUG    ExtensionLoader: Checking module wlauto.result_processors.ipynb_exporter
+2016-09-16 23:28:06,416 DEBUG    ExtensionLoader: 	Adding result_processor ipynb_exporter
+2016-09-16 23:28:06,416 DEBUG    ExtensionLoader: Checking module wlauto.result_processors.mongodb
+2016-09-16 23:28:06,416 DEBUG    ExtensionLoader: 	Adding result_processor mongodb
+2016-09-16 23:28:06,416 DEBUG    ExtensionLoader: Checking module wlauto.result_processors.notify
+2016-09-16 23:28:06,416 DEBUG    ExtensionLoader: 	Adding result_processor notify
+2016-09-16 23:28:06,416 DEBUG    ExtensionLoader: Checking module wlauto.result_processors.sqlite
+2016-09-16 23:28:06,416 DEBUG    ExtensionLoader: 	Adding result_processor sqlite
+2016-09-16 23:28:06,416 DEBUG    ExtensionLoader: Checking module wlauto.result_processors.standard
+2016-09-16 23:28:06,417 DEBUG    ExtensionLoader: 	Adding result_processor csv
+2016-09-16 23:28:06,417 DEBUG    ExtensionLoader: 	Adding result_processor standard
+2016-09-16 23:28:06,417 DEBUG    ExtensionLoader: 	Adding result_processor summary_csv
+2016-09-16 23:28:06,417 DEBUG    ExtensionLoader: 	Adding result_processor json
+2016-09-16 23:28:06,417 DEBUG    ExtensionLoader: Checking module wlauto.result_processors.status
+2016-09-16 23:28:06,417 DEBUG    ExtensionLoader: 	Adding result_processor status
+2016-09-16 23:28:06,417 DEBUG    ExtensionLoader: Checking module wlauto.result_processors.syeg
+2016-09-16 23:28:06,417 DEBUG    ExtensionLoader: 	Adding result_processor syeg_csv
+2016-09-16 23:28:06,417 DEBUG    ExtensionLoader: Checking module wlauto.result_processors.uxperf
+2016-09-16 23:28:06,417 DEBUG    ExtensionLoader: 	Adding result_processor uxperf
+2016-09-16 23:28:06,431 DEBUG    ExtensionLoader: Checking module wlauto.workloads
+2016-09-16 23:28:06,431 DEBUG    ExtensionLoader: Checking module wlauto.workloads.andebench
+2016-09-16 23:28:06,432 DEBUG    ExtensionLoader: 	Adding workload andebench
+2016-09-16 23:28:06,432 DEBUG    ExtensionLoader: Checking module wlauto.workloads.androbench
+2016-09-16 23:28:06,432 DEBUG    ExtensionLoader: 	Adding workload androbench
+2016-09-16 23:28:06,432 DEBUG    ExtensionLoader: Checking module wlauto.workloads.angrybirds
+2016-09-16 23:28:06,432 DEBUG    ExtensionLoader: 	Adding workload angrybirds
+2016-09-16 23:28:06,432 DEBUG    ExtensionLoader: Checking module wlauto.workloads.angrybirds_rio
+2016-09-16 23:28:06,432 DEBUG    ExtensionLoader: 	Adding workload angrybirds_rio
+2016-09-16 23:28:06,432 DEBUG    ExtensionLoader: Checking module wlauto.workloads.anomaly2
+2016-09-16 23:28:06,433 DEBUG    ExtensionLoader: 	Adding workload anomaly2
+2016-09-16 23:28:06,433 DEBUG    ExtensionLoader: Checking module wlauto.workloads.antutu
+2016-09-16 23:28:06,433 DEBUG    ExtensionLoader: 	Adding workload antutu
+2016-09-16 23:28:06,433 DEBUG    ExtensionLoader: Checking module wlauto.workloads.apklaunch
+2016-09-16 23:28:06,433 DEBUG    ExtensionLoader: 	Adding workload apklaunch
+2016-09-16 23:28:06,433 DEBUG    ExtensionLoader: Checking module wlauto.workloads.applaunch
+2016-09-16 23:28:06,433 DEBUG    ExtensionLoader: 	Adding workload applaunch
+2016-09-16 23:28:06,433 DEBUG    ExtensionLoader: Checking module wlauto.workloads.audio
+2016-09-16 23:28:06,433 DEBUG    ExtensionLoader: 	Adding workload audio
+2016-09-16 23:28:06,434 DEBUG    ExtensionLoader: Checking module wlauto.workloads.autotest
+2016-09-16 23:28:06,434 DEBUG    ExtensionLoader: 	Adding workload autotest
+2016-09-16 23:28:06,434 DEBUG    ExtensionLoader: Checking module wlauto.workloads.bbench
+2016-09-16 23:28:06,434 DEBUG    ExtensionLoader: 	Adding workload bbench
+2016-09-16 23:28:06,434 DEBUG    ExtensionLoader: Checking module wlauto.workloads.benchmarkpi
+2016-09-16 23:28:06,434 DEBUG    ExtensionLoader: 	Adding workload benchmarkpi
+2016-09-16 23:28:06,434 DEBUG    ExtensionLoader: Checking module wlauto.workloads.blogbench
+2016-09-16 23:28:06,435 DEBUG    ExtensionLoader: 	Adding workload blogbench
+2016-09-16 23:28:06,435 DEBUG    ExtensionLoader: Checking module wlauto.workloads.caffeinemark
+2016-09-16 23:28:06,435 DEBUG    ExtensionLoader: 	Adding workload caffeinemark
+2016-09-16 23:28:06,435 DEBUG    ExtensionLoader: Checking module wlauto.workloads.cameracapture
+2016-09-16 23:28:06,435 DEBUG    ExtensionLoader: 	Adding workload cameracapture
+2016-09-16 23:28:06,435 DEBUG    ExtensionLoader: Checking module wlauto.workloads.camerarecord
+2016-09-16 23:28:06,435 DEBUG    ExtensionLoader: 	Adding workload camerarecord
+2016-09-16 23:28:06,435 DEBUG    ExtensionLoader: Checking module wlauto.workloads.castlebuilder
+2016-09-16 23:28:06,436 DEBUG    ExtensionLoader: 	Adding workload castlebuilder
+2016-09-16 23:28:06,436 DEBUG    ExtensionLoader: Checking module wlauto.workloads.castlemaster
+2016-09-16 23:28:06,436 DEBUG    ExtensionLoader: 	Adding workload castlemaster
+2016-09-16 23:28:06,436 DEBUG    ExtensionLoader: Checking module wlauto.workloads.cfbench
+2016-09-16 23:28:06,436 DEBUG    ExtensionLoader: 	Adding workload cfbench
+2016-09-16 23:28:06,436 DEBUG    ExtensionLoader: Checking module wlauto.workloads.citadel
+2016-09-16 23:28:06,436 DEBUG    ExtensionLoader: 	Adding workload citadel
+2016-09-16 23:28:06,437 DEBUG    ExtensionLoader: Checking module wlauto.workloads.cyclictest
+2016-09-16 23:28:06,437 DEBUG    ExtensionLoader: 	Adding workload cyclictest
+2016-09-16 23:28:06,437 DEBUG    ExtensionLoader: Checking module wlauto.workloads.dex2oat
+2016-09-16 23:28:06,437 DEBUG    ExtensionLoader: 	Adding workload dex2oat
+2016-09-16 23:28:06,437 DEBUG    ExtensionLoader: Checking module wlauto.workloads.dhrystone
+2016-09-16 23:28:06,437 DEBUG    ExtensionLoader: 	Adding workload dhrystone
+2016-09-16 23:28:06,438 DEBUG    ExtensionLoader: Checking module wlauto.workloads.dungeondefenders
+2016-09-16 23:28:06,438 DEBUG    ExtensionLoader: 	Adding workload dungeondefenders
+2016-09-16 23:28:06,438 DEBUG    ExtensionLoader: Checking module wlauto.workloads.ebizzy
+2016-09-16 23:28:06,438 DEBUG    ExtensionLoader: 	Adding workload ebizzy
+2016-09-16 23:28:06,438 DEBUG    ExtensionLoader: Checking module wlauto.workloads.facebook
+2016-09-16 23:28:06,438 DEBUG    ExtensionLoader: 	Adding workload facebook
+2016-09-16 23:28:06,438 DEBUG    ExtensionLoader: Checking module wlauto.workloads.geekbench
+2016-09-16 23:28:06,438 DEBUG    ExtensionLoader: 	Adding workload geekbench
+2016-09-16 23:28:06,438 DEBUG    ExtensionLoader: Checking module wlauto.workloads.glbcorp
+2016-09-16 23:28:06,439 DEBUG    ExtensionLoader: 	Adding workload glb_corporate
+2016-09-16 23:28:06,439 DEBUG    ExtensionLoader: Checking module wlauto.workloads.glbenchmark
+2016-09-16 23:28:06,439 DEBUG    ExtensionLoader: 	Adding workload glbenchmark
+2016-09-16 23:28:06,439 DEBUG    ExtensionLoader: Checking module wlauto.workloads.googlemap
+2016-09-16 23:28:06,440 DEBUG    ExtensionLoader: 	Adding workload googlemap
+2016-09-16 23:28:06,440 DEBUG    ExtensionLoader: Checking module wlauto.workloads.googlephotos
+2016-09-16 23:28:06,440 DEBUG    ExtensionLoader: 	Adding workload googlephotos
+2016-09-16 23:28:06,440 DEBUG    ExtensionLoader: Checking module wlauto.workloads.googleplaybooks
+2016-09-16 23:28:06,440 DEBUG    ExtensionLoader: 	Adding workload googleplaybooks
+2016-09-16 23:28:06,441 DEBUG    ExtensionLoader: Checking module wlauto.workloads.googleslides
+2016-09-16 23:28:06,441 DEBUG    ExtensionLoader: 	Adding workload googleslides
+2016-09-16 23:28:06,441 DEBUG    ExtensionLoader: Checking module wlauto.workloads.gunbros2
+2016-09-16 23:28:06,441 DEBUG    ExtensionLoader: 	Adding workload gunbros2
+2016-09-16 23:28:06,442 DEBUG    ExtensionLoader: Checking module wlauto.workloads.hackbench
+2016-09-16 23:28:06,442 DEBUG    ExtensionLoader: 	Adding workload hackbench
+2016-09-16 23:28:06,442 DEBUG    ExtensionLoader: Checking module wlauto.workloads.homescreen
+2016-09-16 23:28:06,442 DEBUG    ExtensionLoader: 	Adding workload homescreen
+2016-09-16 23:28:06,442 DEBUG    ExtensionLoader: Checking module wlauto.workloads.hwuitest
+2016-09-16 23:28:06,442 DEBUG    ExtensionLoader: 	Adding workload hwuitest
+2016-09-16 23:28:06,443 DEBUG    ExtensionLoader: Checking module wlauto.workloads.idle
+2016-09-16 23:28:06,443 DEBUG    ExtensionLoader: 	Adding workload idle
+2016-09-16 23:28:06,443 DEBUG    ExtensionLoader: Checking module wlauto.workloads.iozone
+2016-09-16 23:28:06,443 DEBUG    ExtensionLoader: 	Adding workload iozone
+2016-09-16 23:28:06,443 DEBUG    ExtensionLoader: Checking module wlauto.workloads.ironman
+2016-09-16 23:28:06,443 DEBUG    ExtensionLoader: 	Adding workload ironman3
+2016-09-16 23:28:06,443 DEBUG    ExtensionLoader: Checking module wlauto.workloads.krazykart
+2016-09-16 23:28:06,443 DEBUG    ExtensionLoader: 	Adding workload krazykart
+2016-09-16 23:28:06,444 DEBUG    ExtensionLoader: Checking module wlauto.workloads.linpack
+2016-09-16 23:28:06,444 DEBUG    ExtensionLoader: 	Adding workload linpack
+2016-09-16 23:28:06,444 DEBUG    ExtensionLoader: Checking module wlauto.workloads.linpack_cli
+2016-09-16 23:28:06,444 DEBUG    ExtensionLoader: 	Adding workload linpack-cli
+2016-09-16 23:28:06,444 DEBUG    ExtensionLoader: Checking module wlauto.workloads.lmbench
+2016-09-16 23:28:06,444 DEBUG    ExtensionLoader: 	Adding workload lmbench
+2016-09-16 23:28:06,445 DEBUG    ExtensionLoader: Checking module wlauto.workloads.manual
+2016-09-16 23:28:06,445 DEBUG    ExtensionLoader: 	Adding workload manual
+2016-09-16 23:28:06,445 DEBUG    ExtensionLoader: Checking module wlauto.workloads.memcpy
+2016-09-16 23:28:06,445 DEBUG    ExtensionLoader: 	Adding workload memcpy
+2016-09-16 23:28:06,445 DEBUG    ExtensionLoader: Checking module wlauto.workloads.nenamark
+2016-09-16 23:28:06,445 DEBUG    ExtensionLoader: 	Adding workload nenamark
+2016-09-16 23:28:06,445 DEBUG    ExtensionLoader: Checking module wlauto.workloads.peacekeeper
+2016-09-16 23:28:06,445 DEBUG    ExtensionLoader: 	Adding workload peacekeeper
+2016-09-16 23:28:06,446 DEBUG    ExtensionLoader: Checking module wlauto.workloads.power_loadtest
+2016-09-16 23:28:06,446 DEBUG    ExtensionLoader: 	Adding workload power_loadtest
+2016-09-16 23:28:06,446 DEBUG    ExtensionLoader: Checking module wlauto.workloads.quadrant
+2016-09-16 23:28:06,446 DEBUG    ExtensionLoader: 	Adding workload quadrant
+2016-09-16 23:28:06,446 DEBUG    ExtensionLoader: Checking module wlauto.workloads.real_linpack
+2016-09-16 23:28:06,446 DEBUG    ExtensionLoader: 	Adding workload real-linpack
+2016-09-16 23:28:06,446 DEBUG    ExtensionLoader: Checking module wlauto.workloads.realracing3
+2016-09-16 23:28:06,446 DEBUG    ExtensionLoader: 	Adding workload realracing3
+2016-09-16 23:28:06,447 DEBUG    ExtensionLoader: Checking module wlauto.workloads.recentfling
+2016-09-16 23:28:06,447 DEBUG    ExtensionLoader: 	Adding workload recentfling
+2016-09-16 23:28:06,447 DEBUG    ExtensionLoader: Checking module wlauto.workloads.rt_app
+2016-09-16 23:28:06,447 DEBUG    ExtensionLoader: 	Adding workload rt-app
+2016-09-16 23:28:06,448 DEBUG    ExtensionLoader: Checking module wlauto.workloads.shellscript
+2016-09-16 23:28:06,448 DEBUG    ExtensionLoader: 	Adding workload shellscript
+2016-09-16 23:28:06,448 DEBUG    ExtensionLoader: Checking module wlauto.workloads.skype
+2016-09-16 23:28:06,448 DEBUG    ExtensionLoader: 	Adding workload skype
+2016-09-16 23:28:06,448 DEBUG    ExtensionLoader: Checking module wlauto.workloads.smartbench
+2016-09-16 23:28:06,448 DEBUG    ExtensionLoader: 	Adding workload smartbench
+2016-09-16 23:28:06,448 DEBUG    ExtensionLoader: Checking module wlauto.workloads.spec2000
+2016-09-16 23:28:06,448 DEBUG    ExtensionLoader: 	Adding workload spec2000
+2016-09-16 23:28:06,449 DEBUG    ExtensionLoader: Checking module wlauto.workloads.sqlite
+2016-09-16 23:28:06,449 DEBUG    ExtensionLoader: 	Adding workload sqlitebm
+2016-09-16 23:28:06,449 DEBUG    ExtensionLoader: Checking module wlauto.workloads.stream
+2016-09-16 23:28:06,449 DEBUG    ExtensionLoader: 	Adding workload stream
+2016-09-16 23:28:06,449 DEBUG    ExtensionLoader: Checking module wlauto.workloads.stress_ng
+2016-09-16 23:28:06,449 DEBUG    ExtensionLoader: 	Adding workload stress_ng
+2016-09-16 23:28:06,449 DEBUG    ExtensionLoader: Checking module wlauto.workloads.sysbench
+2016-09-16 23:28:06,449 DEBUG    ExtensionLoader: 	Adding workload sysbench
+2016-09-16 23:28:06,449 DEBUG    ExtensionLoader: Checking module wlauto.workloads.telemetry
+2016-09-16 23:28:06,449 DEBUG    ExtensionLoader: 	Adding workload telemetry
+2016-09-16 23:28:06,450 DEBUG    ExtensionLoader: Checking module wlauto.workloads.templerun
+2016-09-16 23:28:06,450 DEBUG    ExtensionLoader: 	Adding workload templerun
+2016-09-16 23:28:06,450 DEBUG    ExtensionLoader: Checking module wlauto.workloads.thechase
+2016-09-16 23:28:06,450 DEBUG    ExtensionLoader: 	Adding workload thechase
+2016-09-16 23:28:06,450 DEBUG    ExtensionLoader: Checking module wlauto.workloads.truckerparking3d
+2016-09-16 23:28:06,450 DEBUG    ExtensionLoader: 	Adding workload truckerparking3d
+2016-09-16 23:28:06,450 DEBUG    ExtensionLoader: Checking module wlauto.workloads.vellamo
+2016-09-16 23:28:06,451 DEBUG    ExtensionLoader: 	Adding workload vellamo
+2016-09-16 23:28:06,451 DEBUG    ExtensionLoader: Checking module wlauto.workloads.video
+2016-09-16 23:28:06,451 DEBUG    ExtensionLoader: 	Adding workload video
+2016-09-16 23:28:06,451 DEBUG    ExtensionLoader: Checking module wlauto.workloads.videostreaming
+2016-09-16 23:28:06,451 DEBUG    ExtensionLoader: 	Adding workload videostreaming
+2016-09-16 23:28:06,451 DEBUG    ExtensionLoader: Checking module wlauto.workloads.youtube
+2016-09-16 23:28:06,451 DEBUG    ExtensionLoader: 	Adding workload youtube
+2016-09-16 23:28:06,452 DEBUG    ExtensionLoader: Checking module wlauto.modules
+2016-09-16 23:28:06,452 DEBUG    ExtensionLoader: Checking module wlauto.modules.active_cooling
+2016-09-16 23:28:06,452 DEBUG    ExtensionLoader: 	Adding module mbed-fan
+2016-09-16 23:28:06,452 DEBUG    ExtensionLoader: 	Adding module odroidxu3-fan
+2016-09-16 23:28:06,452 DEBUG    ExtensionLoader: Checking module wlauto.modules.cgroups
+2016-09-16 23:28:06,452 DEBUG    ExtensionLoader: 	Adding module cgroups
+2016-09-16 23:28:06,452 DEBUG    ExtensionLoader: Checking module wlauto.modules.cpufreq
+2016-09-16 23:28:06,452 DEBUG    ExtensionLoader: 	Adding module devcpufreq
+2016-09-16 23:28:06,452 DEBUG    ExtensionLoader: Checking module wlauto.modules.cpuidle
+2016-09-16 23:28:06,453 DEBUG    ExtensionLoader: 	Adding module cpuidle
+2016-09-16 23:28:06,453 DEBUG    ExtensionLoader: Checking module wlauto.modules.flashing
+2016-09-16 23:28:06,453 DEBUG    ExtensionLoader: 	Adding module fastboot
+2016-09-16 23:28:06,453 DEBUG    ExtensionLoader: 	Adding module vexpress
+2016-09-16 23:28:06,453 DEBUG    ExtensionLoader: Checking module wlauto.modules.reset
+2016-09-16 23:28:06,453 DEBUG    ExtensionLoader: 	Adding module netio_switch
+2016-09-16 23:28:06,456 DEBUG    ExtensionLoader: Checking module wlauto.instrumentation
+2016-09-16 23:28:06,456 DEBUG    ExtensionLoader: Checking module wlauto.instrumentation.coreutil
+2016-09-16 23:28:06,456 DEBUG    ExtensionLoader: 	Adding instrument coreutil
+2016-09-16 23:28:06,457 DEBUG    ExtensionLoader: Checking module wlauto.instrumentation.daq
+2016-09-16 23:28:06,457 DEBUG    ExtensionLoader: 	Adding instrument daq
+2016-09-16 23:28:06,457 DEBUG    ExtensionLoader: Checking module wlauto.instrumentation.delay
+2016-09-16 23:28:06,457 DEBUG    ExtensionLoader: 	Adding instrument delay
+2016-09-16 23:28:06,457 DEBUG    ExtensionLoader: Checking module wlauto.instrumentation.dmesg
+2016-09-16 23:28:06,457 DEBUG    ExtensionLoader: 	Adding instrument dmesg
+2016-09-16 23:28:06,458 DEBUG    ExtensionLoader: Checking module wlauto.instrumentation.energy_model
+2016-09-16 23:28:06,458 DEBUG    ExtensionLoader: 	Adding instrument energy_model
+2016-09-16 23:28:06,458 DEBUG    ExtensionLoader: Checking module wlauto.instrumentation.energy_probe
+2016-09-16 23:28:06,458 DEBUG    ExtensionLoader: 	Adding instrument energy_probe
+2016-09-16 23:28:06,458 DEBUG    ExtensionLoader: Checking module wlauto.instrumentation.fps
+2016-09-16 23:28:06,458 DEBUG    ExtensionLoader: 	Adding instrument fps
+2016-09-16 23:28:06,458 DEBUG    ExtensionLoader: Checking module wlauto.instrumentation.freqsweep
+2016-09-16 23:28:06,458 DEBUG    ExtensionLoader: 	Adding instrument freq_sweep
+2016-09-16 23:28:06,458 DEBUG    ExtensionLoader: Checking module wlauto.instrumentation.hwmon
+2016-09-16 23:28:06,459 DEBUG    ExtensionLoader: 	Adding instrument hwmon
+2016-09-16 23:28:06,459 DEBUG    ExtensionLoader: Checking module wlauto.instrumentation.juno_energy
+2016-09-16 23:28:06,459 DEBUG    ExtensionLoader: 	Adding instrument juno_energy
+2016-09-16 23:28:06,459 DEBUG    ExtensionLoader: Checking module wlauto.instrumentation.misc
+2016-09-16 23:28:06,459 DEBUG    ExtensionLoader: 	Adding instrument interrupts
+2016-09-16 23:28:06,459 DEBUG    ExtensionLoader: 	Adding instrument sysfs_extractor
+2016-09-16 23:28:06,459 DEBUG    ExtensionLoader: 	Adding instrument execution_time
+2016-09-16 23:28:06,459 DEBUG    ExtensionLoader: 	Adding instrument cpufreq
+2016-09-16 23:28:06,459 DEBUG    ExtensionLoader: Checking module wlauto.instrumentation.netstats
+2016-09-16 23:28:06,459 DEBUG    ExtensionLoader: 	Adding instrument netstats
+2016-09-16 23:28:06,460 DEBUG    ExtensionLoader: Checking module wlauto.instrumentation.perf
+2016-09-16 23:28:06,460 DEBUG    ExtensionLoader: 	Adding instrument perf
+2016-09-16 23:28:06,460 DEBUG    ExtensionLoader: Checking module wlauto.instrumentation.pmu_logger
+2016-09-16 23:28:06,460 DEBUG    ExtensionLoader: 	Adding instrument cci_pmu_logger
+2016-09-16 23:28:06,460 DEBUG    ExtensionLoader: Checking module wlauto.instrumentation.poller
+2016-09-16 23:28:06,460 DEBUG    ExtensionLoader: 	Adding instrument file_poller
+2016-09-16 23:28:06,460 DEBUG    ExtensionLoader: Checking module wlauto.instrumentation.screenon
+2016-09-16 23:28:06,460 DEBUG    ExtensionLoader: 	Adding instrument screenon
+2016-09-16 23:28:06,460 DEBUG    ExtensionLoader: Checking module wlauto.instrumentation.servo_power_monitors
+2016-09-16 23:28:06,461 DEBUG    ExtensionLoader: 	Adding instrument servo_power
+2016-09-16 23:28:06,461 DEBUG    ExtensionLoader: Checking module wlauto.instrumentation.streamline
+2016-09-16 23:28:06,461 DEBUG    ExtensionLoader: 	Adding instrument streamline
+2016-09-16 23:28:06,461 DEBUG    ExtensionLoader: 	Adding resource_getter streamline_resource
+2016-09-16 23:28:06,461 DEBUG    ExtensionLoader: Checking module wlauto.instrumentation.systrace
+2016-09-16 23:28:06,461 DEBUG    ExtensionLoader: 	Adding instrument systrace
+2016-09-16 23:28:06,461 DEBUG    ExtensionLoader: Checking module wlauto.instrumentation.trace_cmd
+2016-09-16 23:28:06,461 DEBUG    ExtensionLoader: 	Adding instrument trace-cmd
+2016-09-16 23:28:06,462 DEBUG    ExtensionLoader: Checking module wlauto.commands
+2016-09-16 23:28:06,462 DEBUG    ExtensionLoader: Checking module wlauto.commands.create
+2016-09-16 23:28:06,462 DEBUG    ExtensionLoader: 	Adding command create
+2016-09-16 23:28:06,462 DEBUG    ExtensionLoader: Checking module wlauto.commands.get-assets
+2016-09-16 23:28:06,462 DEBUG    ExtensionLoader: 	Adding command get-assets
+2016-09-16 23:28:06,462 DEBUG    ExtensionLoader: Checking module wlauto.commands.list
+2016-09-16 23:28:06,463 DEBUG    ExtensionLoader: 	Adding command list
+2016-09-16 23:28:06,463 DEBUG    ExtensionLoader: Checking module wlauto.commands.record
+2016-09-16 23:28:06,463 DEBUG    ExtensionLoader: 	Adding command record
+2016-09-16 23:28:06,463 DEBUG    ExtensionLoader: 	Adding command replay
+2016-09-16 23:28:06,463 DEBUG    ExtensionLoader: Checking module wlauto.commands.run
+2016-09-16 23:28:06,463 DEBUG    ExtensionLoader: 	Adding command run
+2016-09-16 23:28:06,463 DEBUG    ExtensionLoader: Checking module wlauto.commands.show
+2016-09-16 23:28:06,463 DEBUG    ExtensionLoader: 	Adding command show
+2016-09-16 23:28:06,466 DEBUG    ExtensionLoader: Checking module wlauto.devices
+2016-09-16 23:28:06,466 DEBUG    ExtensionLoader: Checking module wlauto.devices.android
+2016-09-16 23:28:06,466 DEBUG    ExtensionLoader: Checking module wlauto.devices.android.gem5
+2016-09-16 23:28:06,466 DEBUG    ExtensionLoader: 	Adding device gem5_android
+2016-09-16 23:28:06,466 DEBUG    ExtensionLoader: Checking module wlauto.devices.android.generic
+2016-09-16 23:28:06,466 DEBUG    ExtensionLoader: 	Adding device generic_android
+2016-09-16 23:28:06,467 DEBUG    ExtensionLoader: Checking module wlauto.devices.android.juno
+2016-09-16 23:28:06,467 DEBUG    ExtensionLoader: 	Adding device juno
+2016-09-16 23:28:06,467 DEBUG    ExtensionLoader: Checking module wlauto.devices.android.nexus10
+2016-09-16 23:28:06,467 DEBUG    ExtensionLoader: 	Adding device Nexus10
+2016-09-16 23:28:06,467 DEBUG    ExtensionLoader: Checking module wlauto.devices.android.nexus5
+2016-09-16 23:28:06,467 DEBUG    ExtensionLoader: 	Adding device Nexus5
+2016-09-16 23:28:06,467 DEBUG    ExtensionLoader: Checking module wlauto.devices.android.note3
+2016-09-16 23:28:06,467 DEBUG    ExtensionLoader: 	Adding device Note3
+2016-09-16 23:28:06,467 DEBUG    ExtensionLoader: Checking module wlauto.devices.android.odroidxu3
+2016-09-16 23:28:06,467 DEBUG    ExtensionLoader: 	Adding device odroidxu3
+2016-09-16 23:28:06,468 DEBUG    ExtensionLoader: Checking module wlauto.devices.android.tc2
+2016-09-16 23:28:06,468 DEBUG    ExtensionLoader: 	Adding device TC2
+2016-09-16 23:28:06,468 DEBUG    ExtensionLoader: Checking module wlauto.devices.linux
+2016-09-16 23:28:06,468 DEBUG    ExtensionLoader: Checking module wlauto.devices.linux.XE503C12
+2016-09-16 23:28:06,468 DEBUG    ExtensionLoader: 	Adding device XE503C12
+2016-09-16 23:28:06,468 DEBUG    ExtensionLoader: Checking module wlauto.devices.linux.chromeos_test_image
+2016-09-16 23:28:06,468 DEBUG    ExtensionLoader: 	Adding device chromeos_test_image
+2016-09-16 23:28:06,468 DEBUG    ExtensionLoader: Checking module wlauto.devices.linux.gem5
+2016-09-16 23:28:06,468 DEBUG    ExtensionLoader: 	Adding device gem5_linux
+2016-09-16 23:28:06,469 DEBUG    ExtensionLoader: Checking module wlauto.devices.linux.generic
+2016-09-16 23:28:06,469 DEBUG    ExtensionLoader: 	Adding device generic_linux
+2016-09-16 23:28:06,469 DEBUG    ExtensionLoader: Checking module wlauto.devices.linux.odroidxu3_linux
+2016-09-16 23:28:06,469 DEBUG    ExtensionLoader: 	Adding device odroidxu3_linux
+2016-09-16 23:28:06,469 DEBUG    ExtensionLoader: Checking module wlauto.resource_getters
+2016-09-16 23:28:06,469 DEBUG    ExtensionLoader: Checking module wlauto.resource_getters.standard
+2016-09-16 23:28:06,469 DEBUG    ExtensionLoader: 	Adding resource_getter environment_jar
+2016-09-16 23:28:06,469 DEBUG    ExtensionLoader: 	Adding resource_getter environment_dependency
+2016-09-16 23:28:06,469 DEBUG    ExtensionLoader: 	Adding resource_getter extension_asset
+2016-09-16 23:28:06,470 DEBUG    ExtensionLoader: 	Adding resource_getter http_assets
+2016-09-16 23:28:06,470 DEBUG    ExtensionLoader: 	Adding resource_getter env_exe_getter
+2016-09-16 23:28:06,470 DEBUG    ExtensionLoader: 	Adding resource_getter environment_common_dependency
+2016-09-16 23:28:06,470 DEBUG    ExtensionLoader: 	Adding resource_getter filer
+2016-09-16 23:28:06,470 DEBUG    ExtensionLoader: 	Adding resource_getter package_exe_getter
+2016-09-16 23:28:06,470 DEBUG    ExtensionLoader: 	Adding resource_getter filer_assets
+2016-09-16 23:28:06,470 DEBUG    ExtensionLoader: 	Adding resource_getter enviroment_revent
+2016-09-16 23:28:06,470 DEBUG    ExtensionLoader: 	Adding resource_getter package_file
+2016-09-16 23:28:06,471 DEBUG    ExtensionLoader: 	Adding resource_getter package_apk
+2016-09-16 23:28:06,471 DEBUG    ExtensionLoader: 	Adding resource_getter packaged_dependency
+2016-09-16 23:28:06,471 DEBUG    ExtensionLoader: 	Adding resource_getter packaged_common_dependency
+2016-09-16 23:28:06,471 DEBUG    ExtensionLoader: 	Adding resource_getter environment_file
+2016-09-16 23:28:06,471 DEBUG    ExtensionLoader: 	Adding resource_getter exe_getter
+2016-09-16 23:28:06,471 DEBUG    ExtensionLoader: 	Adding resource_getter package_revent
+2016-09-16 23:28:06,471 DEBUG    ExtensionLoader: 	Adding resource_getter environment_apk
+2016-09-16 23:28:06,471 DEBUG    ExtensionLoader: 	Adding resource_getter package_jar
+2016-09-16 23:28:06,471 DEBUG    ExtensionLoader: Loading from paths.
+2016-09-16 23:28:06,471 DEBUG    ExtensionLoader: Checking path /home/fursin/.workload_automation/commands
+2016-09-16 23:28:06,472 DEBUG    ExtensionLoader: Checking path /home/fursin/.workload_automation/devices
+2016-09-16 23:28:06,472 DEBUG    ExtensionLoader: Checking path /home/fursin/.workload_automation/instruments
+2016-09-16 23:28:06,472 DEBUG    ExtensionLoader: Checking path /home/fursin/.workload_automation/modules
+2016-09-16 23:28:06,472 DEBUG    ExtensionLoader: Checking path /home/fursin/.workload_automation/resource_getters
+2016-09-16 23:28:06,472 DEBUG    ExtensionLoader: Checking path /home/fursin/.workload_automation/result_processors
+2016-09-16 23:28:06,472 DEBUG    ExtensionLoader: Checking path /home/fursin/.workload_automation/workloads
+2016-09-16 23:28:06,472 DEBUG    Executor: Loading run configuration.
+2016-09-16 23:28:06,475 DEBUG    Executor: Initialising device configuration.
+2016-09-16 23:28:06,479 DEBUG    Executor: Loading resource discoverers.
+2016-09-16 23:28:06,482 DEBUG    ResourceResolver: Registering exe_getter
+2016-09-16 23:28:06,485 DEBUG    ResourceResolver: Registering filer
+2016-09-16 23:28:06,487 DEBUG    ResourceResolver: Registering environment_dependency
+2016-09-16 23:28:06,490 DEBUG    ResourceResolver: Registering enviroment_revent
+2016-09-16 23:28:06,492 DEBUG    ResourceResolver: Registering package_revent
+2016-09-16 23:28:06,494 DEBUG    ResourceResolver: Registering package_exe_getter
+2016-09-16 23:28:06,497 DEBUG    ResourceResolver: Registering filer_assets
+2016-09-16 23:28:06,497 DEBUG    ResourceResolver: Registering filer_assets
+2016-09-16 23:28:06,497 DEBUG    ResourceResolver: Registering filer_assets
+2016-09-16 23:28:06,497 DEBUG    ResourceResolver: Registering filer_assets
+2016-09-16 23:28:06,500 DEBUG    ResourceResolver: Registering http_assets
+2016-09-16 23:28:06,500 DEBUG    ResourceResolver: Registering http_assets
+2016-09-16 23:28:06,500 DEBUG    ResourceResolver: Registering http_assets
+2016-09-16 23:28:06,500 DEBUG    ResourceResolver: Registering http_assets
+2016-09-16 23:28:06,502 DEBUG    ResourceResolver: Registering package_apk
+2016-09-16 23:28:06,505 DEBUG    ResourceResolver: Registering package_jar
+2016-09-16 23:28:06,507 DEBUG    ResourceResolver: Registering env_exe_getter
+2016-09-16 23:28:06,509 DEBUG    ResourceResolver: Registering environment_common_dependency
+2016-09-16 23:28:06,512 DEBUG    ResourceResolver: Registering packaged_dependency
+2016-09-16 23:28:06,514 DEBUG    ResourceResolver: Registering environment_file
+2016-09-16 23:28:06,517 DEBUG    ResourceResolver: Registering packaged_common_dependency
+2016-09-16 23:28:06,519 DEBUG    ResourceResolver: Registering environment_apk
+2016-09-16 23:28:06,522 DEBUG    ResourceResolver: Registering extension_asset
+2016-09-16 23:28:06,524 DEBUG    ResourceResolver: Registering streamline_resource
+2016-09-16 23:28:06,526 DEBUG    ResourceResolver: Registering environment_jar
+2016-09-16 23:28:06,529 DEBUG    ResourceResolver: Registering package_file
+2016-09-16 23:28:06,529 DEBUG    Executor: Installing instrumentation
+2016-09-16 23:28:06,532 DEBUG    instrumentation: Installing instrument execution_time.
+2016-09-16 23:28:06,532 DEBUG    instrumentation: 	Connecting wrapper to run-fin-signal
+2016-09-16 23:28:06,532 DEBUG    instrumentation: 	Connecting wrapper to run-init-signal
+2016-09-16 23:28:06,532 DEBUG    instrumentation: 	Connecting on_run_start to start-signal
+2016-09-16 23:28:06,533 DEBUG    instrumentation: 	Connecting update_result to after-iteration-result-update-signal
+2016-09-16 23:28:06,535 DEBUG    instrumentation: Installing instrument interrupts.
+2016-09-16 23:28:06,535 DEBUG    instrumentation: 	Connecting wrapper to run-fin-signal
+2016-09-16 23:28:06,536 DEBUG    instrumentation: 	Connecting wrapper to run-init-signal
+2016-09-16 23:28:06,536 DEBUG    instrumentation: 	Connecting setup to successful-workload-setup-signal
+2016-09-16 23:28:06,536 DEBUG    instrumentation: 	Connecting start to before-workload-execution-signal
+2016-09-16 23:28:06,536 DEBUG    instrumentation: 	Connecting stop to after-workload-execution-signal
+2016-09-16 23:28:06,536 DEBUG    instrumentation: 	Connecting update_result to after-iteration-result-update-signal
+2016-09-16 23:28:06,538 DEBUG    instrumentation: Installing instrument cpufreq.
+2016-09-16 23:28:06,539 DEBUG    instrumentation: 	Connecting wrapper to run-fin-signal
+2016-09-16 23:28:06,539 DEBUG    instrumentation: 	Connecting wrapper to run-init-signal
+2016-09-16 23:28:06,539 DEBUG    instrumentation: 	Connecting setup to successful-workload-setup-signal
+2016-09-16 23:28:06,539 DEBUG    instrumentation: 	Connecting slow_start to before-workload-execution-signal
+2016-09-16 23:28:06,540 DEBUG    instrumentation: 	Connecting slow_stop to after-workload-execution-signal
+2016-09-16 23:28:06,540 DEBUG    instrumentation: 	Connecting teardown to after-workload-teardown-signal
+2016-09-16 23:28:06,540 DEBUG    instrumentation: 	Connecting update_result to after-iteration-result-update-signal
+2016-09-16 23:28:06,540 DEBUG    Executor: Installing result processors
+2016-09-16 23:28:06,542 DEBUG    ResultsManager: Installing results processor status
+2016-09-16 23:28:06,544 DEBUG    ResultsManager: Installing results processor json
+2016-09-16 23:28:06,547 DEBUG    ResultsManager: Installing results processor csv
+2016-09-16 23:28:06,549 DEBUG    ResultsManager: Installing results processor standard
+2016-09-16 23:28:06,549 DEBUG    Executor: Loading workload specs
+2016-09-16 23:28:06,552 DEBUG    ResourceResolver: Resolving <<Workload googlephotos>'s jar>
+2016-09-16 23:28:06,552 DEBUG    ResourceResolver: Trying <ResourceGetter filer_assets>
+2016-09-16 23:28:06,552 DEBUG    RemoteFilerGetter: resource=<<Workload googlephotos>'s jar>, version=None, remote_path=googlephotos, local_path=/home/fursin/.workload_automation/dependencies/googlephotos
+2016-09-16 23:28:06,552 DEBUG    ResourceResolver: Trying <ResourceGetter http_assets>
+2016-09-16 23:28:06,552 DEBUG    ResourceResolver: Trying <ResourceGetter environment_jar>
+2016-09-16 23:28:06,553 DEBUG    ResourceResolver: Trying <ResourceGetter package_jar>
+2016-09-16 23:28:06,553 DEBUG    ResourceResolver: Resource <<Workload googlephotos>'s jar> found using <ResourceGetter package_jar>:
+2016-09-16 23:28:06,553 DEBUG    ResourceResolver: 	/usr/local/lib/python2.7/dist-packages/wlauto-2.5.0-py2.7.egg/wlauto/workloads/googlephotos/com.arm.wlauto.uiauto.googlephotos.jar
+2016-09-16 23:28:06,553 INFO     Executor: Running workloads
+2016-09-16 23:28:06,554 INFO     Runner: Connecting to device
+2016-09-16 23:28:06,554 DEBUG    GenericDevice: Polling for device 9886674d3359493432...
+2016-09-16 23:28:06,554 DEBUG    android: Using ANDROID_HOME from the environment.
+2016-09-16 23:28:06,554 DEBUG    android: ANDROID_HOME: /home/fursin/Android/Sdk
+2016-09-16 23:28:06,554 DEBUG    android: Using aapt for version 23.0.3
+2016-09-16 23:28:06,554 DEBUG    android: adb  devices
+2016-09-16 23:28:08,561 DEBUG    android: adb  devices
+2016-09-16 23:28:10,569 DEBUG    android: adb  devices
+2016-09-16 23:28:12,576 DEBUG    android: adb  devices
+2016-09-16 23:28:14,584 DEBUG    android: adb  devices
+2016-09-16 23:28:14,591 DEBUG    android: adb -s 9886674d3359493432 shell "getprop sys.boot_completed"
+2016-09-16 23:28:14,639 INFO     Runner: Initializing device
+2016-09-16 23:28:14,641 DEBUG    ExtensionLoader: Checking module wlauto.result_processors
+2016-09-16 23:28:14,641 DEBUG    ExtensionLoader: Checking module wlauto.result_processors.cpustate
+2016-09-16 23:28:14,641 DEBUG    ExtensionLoader: 	Adding result_processor cpustates
+2016-09-16 23:28:14,641 DEBUG    ExtensionLoader: Checking module wlauto.result_processors.dvfs
+2016-09-16 23:28:14,641 DEBUG    ExtensionLoader: 	Adding result_processor dvfs
+2016-09-16 23:28:14,641 DEBUG    ExtensionLoader: Checking module wlauto.result_processors.ipynb_exporter
+2016-09-16 23:28:14,641 DEBUG    ExtensionLoader: 	Adding result_processor ipynb_exporter
+2016-09-16 23:28:14,642 DEBUG    ExtensionLoader: Checking module wlauto.result_processors.mongodb
+2016-09-16 23:28:14,642 DEBUG    ExtensionLoader: 	Adding result_processor mongodb
+2016-09-16 23:28:14,642 DEBUG    ExtensionLoader: Checking module wlauto.result_processors.notify
+2016-09-16 23:28:14,642 DEBUG    ExtensionLoader: 	Adding result_processor notify
+2016-09-16 23:28:14,642 DEBUG    ExtensionLoader: Checking module wlauto.result_processors.sqlite
+2016-09-16 23:28:14,642 DEBUG    ExtensionLoader: 	Adding result_processor sqlite
+2016-09-16 23:28:14,642 DEBUG    ExtensionLoader: Checking module wlauto.result_processors.standard
+2016-09-16 23:28:14,642 DEBUG    ExtensionLoader: 	Adding result_processor csv
+2016-09-16 23:28:14,642 DEBUG    ExtensionLoader: 	Adding result_processor standard
+2016-09-16 23:28:14,643 DEBUG    ExtensionLoader: 	Adding result_processor summary_csv
+2016-09-16 23:28:14,643 DEBUG    ExtensionLoader: 	Adding result_processor json
+2016-09-16 23:28:14,643 DEBUG    ExtensionLoader: Checking module wlauto.result_processors.status
+2016-09-16 23:28:14,643 DEBUG    ExtensionLoader: 	Adding result_processor status
+2016-09-16 23:28:14,643 DEBUG    ExtensionLoader: Checking module wlauto.result_processors.syeg
+2016-09-16 23:28:14,643 DEBUG    ExtensionLoader: 	Adding result_processor syeg_csv
+2016-09-16 23:28:14,643 DEBUG    ExtensionLoader: Checking module wlauto.result_processors.uxperf
+2016-09-16 23:28:14,643 DEBUG    ExtensionLoader: 	Adding result_processor uxperf
+2016-09-16 23:28:14,659 DEBUG    ExtensionLoader: Checking module wlauto.workloads
+2016-09-16 23:28:14,660 DEBUG    ExtensionLoader: Checking module wlauto.workloads.andebench
+2016-09-16 23:28:14,660 DEBUG    ExtensionLoader: 	Adding workload andebench
+2016-09-16 23:28:14,660 DEBUG    ExtensionLoader: Checking module wlauto.workloads.androbench
+2016-09-16 23:28:14,660 DEBUG    ExtensionLoader: 	Adding workload androbench
+2016-09-16 23:28:14,660 DEBUG    ExtensionLoader: Checking module wlauto.workloads.angrybirds
+2016-09-16 23:28:14,660 DEBUG    ExtensionLoader: 	Adding workload angrybirds
+2016-09-16 23:28:14,660 DEBUG    ExtensionLoader: Checking module wlauto.workloads.angrybirds_rio
+2016-09-16 23:28:14,660 DEBUG    ExtensionLoader: 	Adding workload angrybirds_rio
+2016-09-16 23:28:14,660 DEBUG    ExtensionLoader: Checking module wlauto.workloads.anomaly2
+2016-09-16 23:28:14,661 DEBUG    ExtensionLoader: 	Adding workload anomaly2
+2016-09-16 23:28:14,661 DEBUG    ExtensionLoader: Checking module wlauto.workloads.antutu
+2016-09-16 23:28:14,661 DEBUG    ExtensionLoader: 	Adding workload antutu
+2016-09-16 23:28:14,661 DEBUG    ExtensionLoader: Checking module wlauto.workloads.apklaunch
+2016-09-16 23:28:14,661 DEBUG    ExtensionLoader: 	Adding workload apklaunch
+2016-09-16 23:28:14,661 DEBUG    ExtensionLoader: Checking module wlauto.workloads.applaunch
+2016-09-16 23:28:14,661 DEBUG    ExtensionLoader: 	Adding workload applaunch
+2016-09-16 23:28:14,661 DEBUG    ExtensionLoader: Checking module wlauto.workloads.audio
+2016-09-16 23:28:14,661 DEBUG    ExtensionLoader: 	Adding workload audio
+2016-09-16 23:28:14,662 DEBUG    ExtensionLoader: Checking module wlauto.workloads.autotest
+2016-09-16 23:28:14,662 DEBUG    ExtensionLoader: 	Adding workload autotest
+2016-09-16 23:28:14,662 DEBUG    ExtensionLoader: Checking module wlauto.workloads.bbench
+2016-09-16 23:28:14,662 DEBUG    ExtensionLoader: 	Adding workload bbench
+2016-09-16 23:28:14,662 DEBUG    ExtensionLoader: Checking module wlauto.workloads.benchmarkpi
+2016-09-16 23:28:14,662 DEBUG    ExtensionLoader: 	Adding workload benchmarkpi
+2016-09-16 23:28:14,662 DEBUG    ExtensionLoader: Checking module wlauto.workloads.blogbench
+2016-09-16 23:28:14,662 DEBUG    ExtensionLoader: 	Adding workload blogbench
+2016-09-16 23:28:14,662 DEBUG    ExtensionLoader: Checking module wlauto.workloads.caffeinemark
+2016-09-16 23:28:14,663 DEBUG    ExtensionLoader: 	Adding workload caffeinemark
+2016-09-16 23:28:14,663 DEBUG    ExtensionLoader: Checking module wlauto.workloads.cameracapture
+2016-09-16 23:28:14,663 DEBUG    ExtensionLoader: 	Adding workload cameracapture
+2016-09-16 23:28:14,663 DEBUG    ExtensionLoader: Checking module wlauto.workloads.camerarecord
+2016-09-16 23:28:14,663 DEBUG    ExtensionLoader: 	Adding workload camerarecord
+2016-09-16 23:28:14,663 DEBUG    ExtensionLoader: Checking module wlauto.workloads.castlebuilder
+2016-09-16 23:28:14,663 DEBUG    ExtensionLoader: 	Adding workload castlebuilder
+2016-09-16 23:28:14,663 DEBUG    ExtensionLoader: Checking module wlauto.workloads.castlemaster
+2016-09-16 23:28:14,663 DEBUG    ExtensionLoader: 	Adding workload castlemaster
+2016-09-16 23:28:14,664 DEBUG    ExtensionLoader: Checking module wlauto.workloads.cfbench
+2016-09-16 23:28:14,664 DEBUG    ExtensionLoader: 	Adding workload cfbench
+2016-09-16 23:28:14,664 DEBUG    ExtensionLoader: Checking module wlauto.workloads.citadel
+2016-09-16 23:28:14,664 DEBUG    ExtensionLoader: 	Adding workload citadel
+2016-09-16 23:28:14,664 DEBUG    ExtensionLoader: Checking module wlauto.workloads.cyclictest
+2016-09-16 23:28:14,664 DEBUG    ExtensionLoader: 	Adding workload cyclictest
+2016-09-16 23:28:14,664 DEBUG    ExtensionLoader: Checking module wlauto.workloads.dex2oat
+2016-09-16 23:28:14,664 DEBUG    ExtensionLoader: 	Adding workload dex2oat
+2016-09-16 23:28:14,664 DEBUG    ExtensionLoader: Checking module wlauto.workloads.dhrystone
+2016-09-16 23:28:14,664 DEBUG    ExtensionLoader: 	Adding workload dhrystone
+2016-09-16 23:28:14,665 DEBUG    ExtensionLoader: Checking module wlauto.workloads.dungeondefenders
+2016-09-16 23:28:14,665 DEBUG    ExtensionLoader: 	Adding workload dungeondefenders
+2016-09-16 23:28:14,665 DEBUG    ExtensionLoader: Checking module wlauto.workloads.ebizzy
+2016-09-16 23:28:14,665 DEBUG    ExtensionLoader: 	Adding workload ebizzy
+2016-09-16 23:28:14,665 DEBUG    ExtensionLoader: Checking module wlauto.workloads.facebook
+2016-09-16 23:28:14,665 DEBUG    ExtensionLoader: 	Adding workload facebook
+2016-09-16 23:28:14,665 DEBUG    ExtensionLoader: Checking module wlauto.workloads.geekbench
+2016-09-16 23:28:14,665 DEBUG    ExtensionLoader: 	Adding workload geekbench
+2016-09-16 23:28:14,665 DEBUG    ExtensionLoader: Checking module wlauto.workloads.glbcorp
+2016-09-16 23:28:14,666 DEBUG    ExtensionLoader: 	Adding workload glb_corporate
+2016-09-16 23:28:14,666 DEBUG    ExtensionLoader: Checking module wlauto.workloads.glbenchmark
+2016-09-16 23:28:14,666 DEBUG    ExtensionLoader: 	Adding workload glbenchmark
+2016-09-16 23:28:14,666 DEBUG    ExtensionLoader: Checking module wlauto.workloads.googlemap
+2016-09-16 23:28:14,666 DEBUG    ExtensionLoader: 	Adding workload googlemap
+2016-09-16 23:28:14,666 DEBUG    ExtensionLoader: Checking module wlauto.workloads.googlephotos
+2016-09-16 23:28:14,667 DEBUG    ExtensionLoader: 	Adding workload googlephotos
+2016-09-16 23:28:14,667 DEBUG    ExtensionLoader: Checking module wlauto.workloads.googleplaybooks
+2016-09-16 23:28:14,667 DEBUG    ExtensionLoader: 	Adding workload googleplaybooks
+2016-09-16 23:28:14,667 DEBUG    ExtensionLoader: Checking module wlauto.workloads.googleslides
+2016-09-16 23:28:14,667 DEBUG    ExtensionLoader: 	Adding workload googleslides
+2016-09-16 23:28:14,667 DEBUG    ExtensionLoader: Checking module wlauto.workloads.gunbros2
+2016-09-16 23:28:14,667 DEBUG    ExtensionLoader: 	Adding workload gunbros2
+2016-09-16 23:28:14,668 DEBUG    ExtensionLoader: Checking module wlauto.workloads.hackbench
+2016-09-16 23:28:14,668 DEBUG    ExtensionLoader: 	Adding workload hackbench
+2016-09-16 23:28:14,668 DEBUG    ExtensionLoader: Checking module wlauto.workloads.homescreen
+2016-09-16 23:28:14,668 DEBUG    ExtensionLoader: 	Adding workload homescreen
+2016-09-16 23:28:14,668 DEBUG    ExtensionLoader: Checking module wlauto.workloads.hwuitest
+2016-09-16 23:28:14,668 DEBUG    ExtensionLoader: 	Adding workload hwuitest
+2016-09-16 23:28:14,668 DEBUG    ExtensionLoader: Checking module wlauto.workloads.idle
+2016-09-16 23:28:14,668 DEBUG    ExtensionLoader: 	Adding workload idle
+2016-09-16 23:28:14,668 DEBUG    ExtensionLoader: Checking module wlauto.workloads.iozone
+2016-09-16 23:28:14,668 DEBUG    ExtensionLoader: 	Adding workload iozone
+2016-09-16 23:28:14,669 DEBUG    ExtensionLoader: Checking module wlauto.workloads.ironman
+2016-09-16 23:28:14,669 DEBUG    ExtensionLoader: 	Adding workload ironman3
+2016-09-16 23:28:14,669 DEBUG    ExtensionLoader: Checking module wlauto.workloads.krazykart
+2016-09-16 23:28:14,669 DEBUG    ExtensionLoader: 	Adding workload krazykart
+2016-09-16 23:28:14,669 DEBUG    ExtensionLoader: Checking module wlauto.workloads.linpack
+2016-09-16 23:28:14,669 DEBUG    ExtensionLoader: 	Adding workload linpack
+2016-09-16 23:28:14,669 DEBUG    ExtensionLoader: Checking module wlauto.workloads.linpack_cli
+2016-09-16 23:28:14,670 DEBUG    ExtensionLoader: 	Adding workload linpack-cli
+2016-09-16 23:28:14,670 DEBUG    ExtensionLoader: Checking module wlauto.workloads.lmbench
+2016-09-16 23:28:14,670 DEBUG    ExtensionLoader: 	Adding workload lmbench
+2016-09-16 23:28:14,670 DEBUG    ExtensionLoader: Checking module wlauto.workloads.manual
+2016-09-16 23:28:14,670 DEBUG    ExtensionLoader: 	Adding workload manual
+2016-09-16 23:28:14,671 DEBUG    ExtensionLoader: Checking module wlauto.workloads.memcpy
+2016-09-16 23:28:14,671 DEBUG    ExtensionLoader: 	Adding workload memcpy
+2016-09-16 23:28:14,671 DEBUG    ExtensionLoader: Checking module wlauto.workloads.nenamark
+2016-09-16 23:28:14,671 DEBUG    ExtensionLoader: 	Adding workload nenamark
+2016-09-16 23:28:14,671 DEBUG    ExtensionLoader: Checking module wlauto.workloads.peacekeeper
+2016-09-16 23:28:14,671 DEBUG    ExtensionLoader: 	Adding workload peacekeeper
+2016-09-16 23:28:14,671 DEBUG    ExtensionLoader: Checking module wlauto.workloads.power_loadtest
+2016-09-16 23:28:14,671 DEBUG    ExtensionLoader: 	Adding workload power_loadtest
+2016-09-16 23:28:14,672 DEBUG    ExtensionLoader: Checking module wlauto.workloads.quadrant
+2016-09-16 23:28:14,672 DEBUG    ExtensionLoader: 	Adding workload quadrant
+2016-09-16 23:28:14,672 DEBUG    ExtensionLoader: Checking module wlauto.workloads.real_linpack
+2016-09-16 23:28:14,672 DEBUG    ExtensionLoader: 	Adding workload real-linpack
+2016-09-16 23:28:14,672 DEBUG    ExtensionLoader: Checking module wlauto.workloads.realracing3
+2016-09-16 23:28:14,673 DEBUG    ExtensionLoader: 	Adding workload realracing3
+2016-09-16 23:28:14,673 DEBUG    ExtensionLoader: Checking module wlauto.workloads.recentfling
+2016-09-16 23:28:14,673 DEBUG    ExtensionLoader: 	Adding workload recentfling
+2016-09-16 23:28:14,674 DEBUG    ExtensionLoader: Checking module wlauto.workloads.rt_app
+2016-09-16 23:28:14,674 DEBUG    ExtensionLoader: 	Adding workload rt-app
+2016-09-16 23:28:14,674 DEBUG    ExtensionLoader: Checking module wlauto.workloads.shellscript
+2016-09-16 23:28:14,674 DEBUG    ExtensionLoader: 	Adding workload shellscript
+2016-09-16 23:28:14,674 DEBUG    ExtensionLoader: Checking module wlauto.workloads.skype
+2016-09-16 23:28:14,674 DEBUG    ExtensionLoader: 	Adding workload skype
+2016-09-16 23:28:14,674 DEBUG    ExtensionLoader: Checking module wlauto.workloads.smartbench
+2016-09-16 23:28:14,674 DEBUG    ExtensionLoader: 	Adding workload smartbench
+2016-09-16 23:28:14,675 DEBUG    ExtensionLoader: Checking module wlauto.workloads.spec2000
+2016-09-16 23:28:14,675 DEBUG    ExtensionLoader: 	Adding workload spec2000
+2016-09-16 23:28:14,675 DEBUG    ExtensionLoader: Checking module wlauto.workloads.sqlite
+2016-09-16 23:28:14,675 DEBUG    ExtensionLoader: 	Adding workload sqlitebm
+2016-09-16 23:28:14,675 DEBUG    ExtensionLoader: Checking module wlauto.workloads.stream
+2016-09-16 23:28:14,675 DEBUG    ExtensionLoader: 	Adding workload stream
+2016-09-16 23:28:14,675 DEBUG    ExtensionLoader: Checking module wlauto.workloads.stress_ng
+2016-09-16 23:28:14,675 DEBUG    ExtensionLoader: 	Adding workload stress_ng
+2016-09-16 23:28:14,675 DEBUG    ExtensionLoader: Checking module wlauto.workloads.sysbench
+2016-09-16 23:28:14,676 DEBUG    ExtensionLoader: 	Adding workload sysbench
+2016-09-16 23:28:14,676 DEBUG    ExtensionLoader: Checking module wlauto.workloads.telemetry
+2016-09-16 23:28:14,676 DEBUG    ExtensionLoader: 	Adding workload telemetry
+2016-09-16 23:28:14,676 DEBUG    ExtensionLoader: Checking module wlauto.workloads.templerun
+2016-09-16 23:28:14,676 DEBUG    ExtensionLoader: 	Adding workload templerun
+2016-09-16 23:28:14,677 DEBUG    ExtensionLoader: Checking module wlauto.workloads.thechase
+2016-09-16 23:28:14,677 DEBUG    ExtensionLoader: 	Adding workload thechase
+2016-09-16 23:28:14,677 DEBUG    ExtensionLoader: Checking module wlauto.workloads.truckerparking3d
+2016-09-16 23:28:14,677 DEBUG    ExtensionLoader: 	Adding workload truckerparking3d
+2016-09-16 23:28:14,677 DEBUG    ExtensionLoader: Checking module wlauto.workloads.vellamo
+2016-09-16 23:28:14,678 DEBUG    ExtensionLoader: 	Adding workload vellamo
+2016-09-16 23:28:14,678 DEBUG    ExtensionLoader: Checking module wlauto.workloads.video
+2016-09-16 23:28:14,678 DEBUG    ExtensionLoader: 	Adding workload video
+2016-09-16 23:28:14,678 DEBUG    ExtensionLoader: Checking module wlauto.workloads.videostreaming
+2016-09-16 23:28:14,678 DEBUG    ExtensionLoader: 	Adding workload videostreaming
+2016-09-16 23:28:14,678 DEBUG    ExtensionLoader: Checking module wlauto.workloads.youtube
+2016-09-16 23:28:14,678 DEBUG    ExtensionLoader: 	Adding workload youtube
+2016-09-16 23:28:14,679 DEBUG    ExtensionLoader: Checking module wlauto.modules
+2016-09-16 23:28:14,679 DEBUG    ExtensionLoader: Checking module wlauto.modules.active_cooling
+2016-09-16 23:28:14,680 DEBUG    ExtensionLoader: 	Adding module mbed-fan
+2016-09-16 23:28:14,680 DEBUG    ExtensionLoader: 	Adding module odroidxu3-fan
+2016-09-16 23:28:14,680 DEBUG    ExtensionLoader: Checking module wlauto.modules.cgroups
+2016-09-16 23:28:14,680 DEBUG    ExtensionLoader: 	Adding module cgroups
+2016-09-16 23:28:14,680 DEBUG    ExtensionLoader: Checking module wlauto.modules.cpufreq
+2016-09-16 23:28:14,680 DEBUG    ExtensionLoader: 	Adding module devcpufreq
+2016-09-16 23:28:14,680 DEBUG    ExtensionLoader: Checking module wlauto.modules.cpuidle
+2016-09-16 23:28:14,680 DEBUG    ExtensionLoader: 	Adding module cpuidle
+2016-09-16 23:28:14,680 DEBUG    ExtensionLoader: Checking module wlauto.modules.flashing
+2016-09-16 23:28:14,680 DEBUG    ExtensionLoader: 	Adding module fastboot
+2016-09-16 23:28:14,681 DEBUG    ExtensionLoader: 	Adding module vexpress
+2016-09-16 23:28:14,681 DEBUG    ExtensionLoader: Checking module wlauto.modules.reset
+2016-09-16 23:28:14,681 DEBUG    ExtensionLoader: 	Adding module netio_switch
+2016-09-16 23:28:14,684 DEBUG    ExtensionLoader: Checking module wlauto.instrumentation
+2016-09-16 23:28:14,684 DEBUG    ExtensionLoader: Checking module wlauto.instrumentation.coreutil
+2016-09-16 23:28:14,684 DEBUG    ExtensionLoader: 	Adding instrument coreutil
+2016-09-16 23:28:14,684 DEBUG    ExtensionLoader: Checking module wlauto.instrumentation.daq
+2016-09-16 23:28:14,684 DEBUG    ExtensionLoader: 	Adding instrument daq
+2016-09-16 23:28:14,685 DEBUG    ExtensionLoader: Checking module wlauto.instrumentation.delay
+2016-09-16 23:28:14,685 DEBUG    ExtensionLoader: 	Adding instrument delay
+2016-09-16 23:28:14,685 DEBUG    ExtensionLoader: Checking module wlauto.instrumentation.dmesg
+2016-09-16 23:28:14,685 DEBUG    ExtensionLoader: 	Adding instrument dmesg
+2016-09-16 23:28:14,685 DEBUG    ExtensionLoader: Checking module wlauto.instrumentation.energy_model
+2016-09-16 23:28:14,685 DEBUG    ExtensionLoader: 	Adding instrument energy_model
+2016-09-16 23:28:14,685 DEBUG    ExtensionLoader: Checking module wlauto.instrumentation.energy_probe
+2016-09-16 23:28:14,685 DEBUG    ExtensionLoader: 	Adding instrument energy_probe
+2016-09-16 23:28:14,686 DEBUG    ExtensionLoader: Checking module wlauto.instrumentation.fps
+2016-09-16 23:28:14,686 DEBUG    ExtensionLoader: 	Adding instrument fps
+2016-09-16 23:28:14,686 DEBUG    ExtensionLoader: Checking module wlauto.instrumentation.freqsweep
+2016-09-16 23:28:14,686 DEBUG    ExtensionLoader: 	Adding instrument freq_sweep
+2016-09-16 23:28:14,686 DEBUG    ExtensionLoader: Checking module wlauto.instrumentation.hwmon
+2016-09-16 23:28:14,686 DEBUG    ExtensionLoader: 	Adding instrument hwmon
+2016-09-16 23:28:14,686 DEBUG    ExtensionLoader: Checking module wlauto.instrumentation.juno_energy
+2016-09-16 23:28:14,686 DEBUG    ExtensionLoader: 	Adding instrument juno_energy
+2016-09-16 23:28:14,686 DEBUG    ExtensionLoader: Checking module wlauto.instrumentation.misc
+2016-09-16 23:28:14,687 DEBUG    ExtensionLoader: 	Adding instrument interrupts
+2016-09-16 23:28:14,687 DEBUG    ExtensionLoader: 	Adding instrument sysfs_extractor
+2016-09-16 23:28:14,687 DEBUG    ExtensionLoader: 	Adding instrument execution_time
+2016-09-16 23:28:14,687 DEBUG    ExtensionLoader: 	Adding instrument cpufreq
+2016-09-16 23:28:14,687 DEBUG    ExtensionLoader: Checking module wlauto.instrumentation.netstats
+2016-09-16 23:28:14,687 DEBUG    ExtensionLoader: 	Adding instrument netstats
+2016-09-16 23:28:14,687 DEBUG    ExtensionLoader: Checking module wlauto.instrumentation.perf
+2016-09-16 23:28:14,687 DEBUG    ExtensionLoader: 	Adding instrument perf
+2016-09-16 23:28:14,688 DEBUG    ExtensionLoader: Checking module wlauto.instrumentation.pmu_logger
+2016-09-16 23:28:14,688 DEBUG    ExtensionLoader: 	Adding instrument cci_pmu_logger
+2016-09-16 23:28:14,688 DEBUG    ExtensionLoader: Checking module wlauto.instrumentation.poller
+2016-09-16 23:28:14,688 DEBUG    ExtensionLoader: 	Adding instrument file_poller
+2016-09-16 23:28:14,688 DEBUG    ExtensionLoader: Checking module wlauto.instrumentation.screenon
+2016-09-16 23:28:14,688 DEBUG    ExtensionLoader: 	Adding instrument screenon
+2016-09-16 23:28:14,688 DEBUG    ExtensionLoader: Checking module wlauto.instrumentation.servo_power_monitors
+2016-09-16 23:28:14,688 DEBUG    ExtensionLoader: 	Adding instrument servo_power
+2016-09-16 23:28:14,688 DEBUG    ExtensionLoader: Checking module wlauto.instrumentation.streamline
+2016-09-16 23:28:14,689 DEBUG    ExtensionLoader: 	Adding instrument streamline
+2016-09-16 23:28:14,689 DEBUG    ExtensionLoader: 	Adding resource_getter streamline_resource
+2016-09-16 23:28:14,689 DEBUG    ExtensionLoader: Checking module wlauto.instrumentation.systrace
+2016-09-16 23:28:14,689 DEBUG    ExtensionLoader: 	Adding instrument systrace
+2016-09-16 23:28:14,689 DEBUG    ExtensionLoader: Checking module wlauto.instrumentation.trace_cmd
+2016-09-16 23:28:14,689 DEBUG    ExtensionLoader: 	Adding instrument trace-cmd
+2016-09-16 23:28:14,690 DEBUG    ExtensionLoader: Checking module wlauto.commands
+2016-09-16 23:28:14,690 DEBUG    ExtensionLoader: Checking module wlauto.commands.create
+2016-09-16 23:28:14,690 DEBUG    ExtensionLoader: 	Adding command create
+2016-09-16 23:28:14,690 DEBUG    ExtensionLoader: Checking module wlauto.commands.get-assets
+2016-09-16 23:28:14,690 DEBUG    ExtensionLoader: 	Adding command get-assets
+2016-09-16 23:28:14,690 DEBUG    ExtensionLoader: Checking module wlauto.commands.list
+2016-09-16 23:28:14,690 DEBUG    ExtensionLoader: 	Adding command list
+2016-09-16 23:28:14,690 DEBUG    ExtensionLoader: Checking module wlauto.commands.record
+2016-09-16 23:28:14,691 DEBUG    ExtensionLoader: 	Adding command record
+2016-09-16 23:28:14,691 DEBUG    ExtensionLoader: 	Adding command replay
+2016-09-16 23:28:14,691 DEBUG    ExtensionLoader: Checking module wlauto.commands.run
+2016-09-16 23:28:14,691 DEBUG    ExtensionLoader: 	Adding command run
+2016-09-16 23:28:14,691 DEBUG    ExtensionLoader: Checking module wlauto.commands.show
+2016-09-16 23:28:14,691 DEBUG    ExtensionLoader: 	Adding command show
+2016-09-16 23:28:14,693 DEBUG    ExtensionLoader: Checking module wlauto.devices
+2016-09-16 23:28:14,693 DEBUG    ExtensionLoader: Checking module wlauto.devices.android
+2016-09-16 23:28:14,693 DEBUG    ExtensionLoader: Checking module wlauto.devices.android.gem5
+2016-09-16 23:28:14,694 DEBUG    ExtensionLoader: 	Adding device gem5_android
+2016-09-16 23:28:14,694 DEBUG    ExtensionLoader: Checking module wlauto.devices.android.generic
+2016-09-16 23:28:14,694 DEBUG    ExtensionLoader: 	Adding device generic_android
+2016-09-16 23:28:14,694 DEBUG    ExtensionLoader: Checking module wlauto.devices.android.juno
+2016-09-16 23:28:14,694 DEBUG    ExtensionLoader: 	Adding device juno
+2016-09-16 23:28:14,694 DEBUG    ExtensionLoader: Checking module wlauto.devices.android.nexus10
+2016-09-16 23:28:14,694 DEBUG    ExtensionLoader: 	Adding device Nexus10
+2016-09-16 23:28:14,694 DEBUG    ExtensionLoader: Checking module wlauto.devices.android.nexus5
+2016-09-16 23:28:14,695 DEBUG    ExtensionLoader: 	Adding device Nexus5
+2016-09-16 23:28:14,695 DEBUG    ExtensionLoader: Checking module wlauto.devices.android.note3
+2016-09-16 23:28:14,695 DEBUG    ExtensionLoader: 	Adding device Note3
+2016-09-16 23:28:14,695 DEBUG    ExtensionLoader: Checking module wlauto.devices.android.odroidxu3
+2016-09-16 23:28:14,695 DEBUG    ExtensionLoader: 	Adding device odroidxu3
+2016-09-16 23:28:14,695 DEBUG    ExtensionLoader: Checking module wlauto.devices.android.tc2
+2016-09-16 23:28:14,695 DEBUG    ExtensionLoader: 	Adding device TC2
+2016-09-16 23:28:14,695 DEBUG    ExtensionLoader: Checking module wlauto.devices.linux
+2016-09-16 23:28:14,695 DEBUG    ExtensionLoader: Checking module wlauto.devices.linux.XE503C12
+2016-09-16 23:28:14,696 DEBUG    ExtensionLoader: 	Adding device XE503C12
+2016-09-16 23:28:14,696 DEBUG    ExtensionLoader: Checking module wlauto.devices.linux.chromeos_test_image
+2016-09-16 23:28:14,696 DEBUG    ExtensionLoader: 	Adding device chromeos_test_image
+2016-09-16 23:28:14,696 DEBUG    ExtensionLoader: Checking module wlauto.devices.linux.gem5
+2016-09-16 23:28:14,696 DEBUG    ExtensionLoader: 	Adding device gem5_linux
+2016-09-16 23:28:14,696 DEBUG    ExtensionLoader: Checking module wlauto.devices.linux.generic
+2016-09-16 23:28:14,696 DEBUG    ExtensionLoader: 	Adding device generic_linux
+2016-09-16 23:28:14,696 DEBUG    ExtensionLoader: Checking module wlauto.devices.linux.odroidxu3_linux
+2016-09-16 23:28:14,696 DEBUG    ExtensionLoader: 	Adding device odroidxu3_linux
+2016-09-16 23:28:14,697 DEBUG    ExtensionLoader: Checking module wlauto.resource_getters
+2016-09-16 23:28:14,697 DEBUG    ExtensionLoader: Checking module wlauto.resource_getters.standard
+2016-09-16 23:28:14,697 DEBUG    ExtensionLoader: 	Adding resource_getter environment_jar
+2016-09-16 23:28:14,697 DEBUG    ExtensionLoader: 	Adding resource_getter environment_dependency
+2016-09-16 23:28:14,697 DEBUG    ExtensionLoader: 	Adding resource_getter extension_asset
+2016-09-16 23:28:14,697 DEBUG    ExtensionLoader: 	Adding resource_getter http_assets
+2016-09-16 23:28:14,697 DEBUG    ExtensionLoader: 	Adding resource_getter env_exe_getter
+2016-09-16 23:28:14,697 DEBUG    ExtensionLoader: 	Adding resource_getter environment_common_dependency
+2016-09-16 23:28:14,698 DEBUG    ExtensionLoader: 	Adding resource_getter filer
+2016-09-16 23:28:14,698 DEBUG    ExtensionLoader: 	Adding resource_getter package_exe_getter
+2016-09-16 23:28:14,698 DEBUG    ExtensionLoader: 	Adding resource_getter filer_assets
+2016-09-16 23:28:14,698 DEBUG    ExtensionLoader: 	Adding resource_getter enviroment_revent
+2016-09-16 23:28:14,698 DEBUG    ExtensionLoader: 	Adding resource_getter package_file
+2016-09-16 23:28:14,698 DEBUG    ExtensionLoader: 	Adding resource_getter package_apk
+2016-09-16 23:28:14,698 DEBUG    ExtensionLoader: 	Adding resource_getter packaged_dependency
+2016-09-16 23:28:14,698 DEBUG    ExtensionLoader: 	Adding resource_getter packaged_common_dependency
+2016-09-16 23:28:14,698 DEBUG    ExtensionLoader: 	Adding resource_getter environment_file
+2016-09-16 23:28:14,699 DEBUG    ExtensionLoader: 	Adding resource_getter exe_getter
+2016-09-16 23:28:14,699 DEBUG    ExtensionLoader: 	Adding resource_getter package_revent
+2016-09-16 23:28:14,699 DEBUG    ExtensionLoader: 	Adding resource_getter environment_apk
+2016-09-16 23:28:14,699 DEBUG    ExtensionLoader: 	Adding resource_getter package_jar
+2016-09-16 23:28:14,699 DEBUG    ExtensionLoader: Loading from paths.
+2016-09-16 23:28:14,703 DEBUG    android: adb -s 9886674d3359493432 shell "su"
+2016-09-16 23:28:15,046 DEBUG    android: adb -s 9886674d3359493432 shell "echo 'cat '\\''/sys/devices/system/cpu/online'\\''' | su"
+2016-09-16 23:28:15,051 CRITICAL root: Got exit code 969696
+2016-09-16 23:28:15,051 CRITICAL root: from: adb -s 9886674d3359493432 shell "echo 'cat '\\''/sys/devices/system/cpu/online'\\''' | su"
+2016-09-16 23:28:15,051 CRITICAL root: STDOUT: 
+2016-09-16 23:28:15,051 CRITICAL root: STDERR: error: device '9886674d3359493432' not found
+2016-09-16 23:28:15,051 CRITICAL root: 
