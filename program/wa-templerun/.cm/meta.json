@@ -1,62 +1,109 @@
 {
-  "backup_data_uid": "682b927647864fed",
+  "backup_data_uid": "682b927647864fed", 
   "ck_to_env": {
     "CK_WA_SCRIPTS_PATH": "script:39157fb314f399ae"
-  },
+  }, 
   "clean_dirs": [
     "wa_output"
-  ],
-  "data_name": "WA workload: templerun",
+  ], 
+  "data_name": "WA workload: templerun", 
   "deps": {
     "wa": {
-      "env_key": "WA",
-      "force_target_as_host": "yes",
-      "local": "yes",
-      "name": "ARM Workload Automation",
-      "sort": 10,
+      "env_key": "WA", 
+      "force_target_as_host": "yes", 
+      "local": "yes", 
+      "name": "ARM Workload Automation", 
+      "sort": 10, 
       "tags": "tool,wa"
     }
-  },
-  "no_compile": "yes",
-  "no_target_file": "yes",
+  }, 
+  "no_compile": "yes", 
+  "no_target_file": "yes", 
+  "params": {
+    "assets_push_timeout": {
+      "allowed_values": null, 
+      "default": 500, 
+      "desc": "Timeout used during deployment of the assets package (if there is one)."
+    }, 
+    "check_abi": {
+      "allowed_values": null, 
+      "default": false, 
+      "desc": "\n                  If ``True``, workload will check that the APK matches the target\n                  device ABI, otherwise any APK found will be used.\n                  "
+    }, 
+    "check_apk": {
+      "allowed_values": null, 
+      "default": true, 
+      "desc": "\n                  When set to True the APK file on the host will be prefered if\n                  it is a valid version and ABI, if not it will fall back to the\n                  version on the targer. When set to False the target version is\n                  prefered.\n                  "
+    }, 
+    "check_states": {
+      "allowed_values": null, 
+      "default": false, 
+      "desc": "Use visual state detection to verify the state of the workload\n                  after setup and run"
+    }, 
+    "clear_data_on_reset": {
+      "allowed_values": null, 
+      "default": true, 
+      "desc": "\n                  If set to ``False``, this will prevent WA from clearing package\n                  data for this workload prior to running it.\n                  "
+    }, 
+    "force_install": {
+      "allowed_values": null, 
+      "default": false, 
+      "desc": "\n                  Always re-install the APK, even if matching version is found already installed\n                  on the device. Runs ``adb install -r`` to ensure existing APK is replaced. When\n                  this is set, check_apk is ignored.\n                  "
+    }, 
+    "install_timeout": {
+      "allowed_values": null, 
+      "default": 500, 
+      "desc": "Timeout for the installation of the apk."
+    }, 
+    "modules": {
+      "allowed_values": null, 
+      "default": null, 
+      "desc": "\n                  Lists the modules to be loaded by this extension. A module is a plug-in that\n                  further extends functionality of an extension.\n                  "
+    }, 
+    "uninstall_apk": {
+      "allowed_values": null, 
+      "default": false, 
+      "desc": "If ``True``, will uninstall workload's APK as part of teardown."
+    }
+  }, 
   "print_files_after_run": [
-    "tmp-output2.tmp",
-    "wa_output/status.txt",
+    "tmp-output2.tmp", 
+    "wa_output/status.txt", 
     "wa_output/templerun_1_1/result.txt"
-  ],
-  "process_in_tmp": "yes",
-  "program": "yes",
+  ], 
+  "process_in_tmp": "yes", 
+  "program": "yes", 
   "required_device_access_type": [
-    "wa_android",
+    "wa_android", 
     "wa_linux"
-  ],
+  ], 
   "run_cmds": {
     "default": {
-      "ignore_return_code": "no",
+      "ignore_return_code": "no", 
       "run_time": {
-        "fine_grain_timer_file": "tmp-ck-timer.json",
+        "fine_grain_timer_file": "tmp-ck-timer.json", 
         "post_process_cmds": [
           "python $<<CK_WA_SCRIPTS_PATH>>$$#dir_sep#$postprocess_workload.py"
-        ],
-        "post_process_via_ck": "yes",
+        ], 
+        "post_process_via_ck": "yes", 
         "pre_process_via_ck": {
-          "data_uoa": "process-wa",
-          "module_uoa": "script",
+          "data_uoa": "process-wa", 
+          "module_uoa": "script", 
           "script_name": "preprocess_workload"
-        },
-        "run_cmd_main": "wa run $<<CK_WA_CMD>>$",
-        "run_cmd_out1": "tmp-output1.tmp",
-        "run_cmd_out2": "tmp-output2.tmp",
+        }, 
+        "run_cmd_main": "wa run $<<CK_WA_CMD>>$", 
+        "run_cmd_out1": "tmp-output1.tmp", 
+        "run_cmd_out2": "tmp-output2.tmp", 
         "run_output_files": []
       }
     }
-  },
-  "run_via_third_party": "yes",
+  }, 
+  "run_via_third_party": "yes", 
   "tags": [
-    "wa",
-    "workload-automation",
+    "wa", 
+    "workload-automation", 
     "templerun"
-  ],
-  "wa_alias": "templerun",
+  ], 
+  "wa_alias": "templerun", 
   "wa_desc": "Templerun game"
 }

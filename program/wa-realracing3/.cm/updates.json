@@ -1,58 +1,72 @@
 {
   "control": [
     {
-      "author": "cTuning foundation",
-      "author_email": "admin@cTuning.org",
-      "author_webpage": "http://cTuning.org",
-      "copyright": "See CK COPYRIGHT.txt for copyright details",
-      "engine": "CK",
-      "iso_datetime": "2016-10-02T16:18:49.765916",
-      "license": "See CK LICENSE.txt for licensing details",
+      "author": "cTuning foundation", 
+      "author_email": "admin@cTuning.org", 
+      "author_webpage": "http://cTuning.org", 
+      "copyright": "See CK COPYRIGHT.txt for copyright details", 
+      "engine": "CK", 
+      "iso_datetime": "2016-10-02T16:18:49.765916", 
+      "license": "See CK LICENSE.txt for licensing details", 
       "version": [
-        "1",
-        "8",
+        "1", 
+        "8", 
         "3dev"
       ]
-    },
+    }, 
     {
-      "author": "cTuning foundation",
-      "author_email": "admin@cTuning.org",
-      "author_webpage": "http://cTuning.org",
-      "copyright": "See CK COPYRIGHT.txt for copyright details",
-      "engine": "CK",
-      "iso_datetime": "2016-10-02T16:58:07.477551",
-      "license": "See CK LICENSE.txt for licensing details",
+      "author": "cTuning foundation", 
+      "author_email": "admin@cTuning.org", 
+      "author_webpage": "http://cTuning.org", 
+      "copyright": "See CK COPYRIGHT.txt for copyright details", 
+      "engine": "CK", 
+      "iso_datetime": "2016-10-02T16:58:07.477551", 
+      "license": "See CK LICENSE.txt for licensing details", 
       "version": [
-        "1",
-        "8",
+        "1", 
+        "8", 
         "3dev"
       ]
-    },
+    }, 
     {
-      "author": "cTuning foundation",
-      "author_email": "admin@cTuning.org",
-      "author_webpage": "http://cTuning.org",
-      "copyright": "See CK COPYRIGHT.txt for copyright details",
-      "engine": "CK",
-      "iso_datetime": "2016-10-02T23:41:44.366262",
-      "license": "See CK LICENSE.txt for licensing details",
+      "author": "cTuning foundation", 
+      "author_email": "admin@cTuning.org", 
+      "author_webpage": "http://cTuning.org", 
+      "copyright": "See CK COPYRIGHT.txt for copyright details", 
+      "engine": "CK", 
+      "iso_datetime": "2016-10-02T23:41:44.366262", 
+      "license": "See CK LICENSE.txt for licensing details", 
       "version": [
-        "1",
-        "8",
+        "1", 
+        "8", 
         "3dev"
       ]
-    },
+    }, 
     {
-      "author": "cTuning foundation",
-      "author_email": "admin@cTuning.org",
-      "author_webpage": "http://cTuning.org",
-      "copyright": "See CK COPYRIGHT.txt for copyright details",
-      "engine": "CK",
-      "iso_datetime": "2016-10-02T23:42:32.065853",
-      "license": "See CK LICENSE.txt for licensing details",
+      "author": "cTuning foundation", 
+      "author_email": "admin@cTuning.org", 
+      "author_webpage": "http://cTuning.org", 
+      "copyright": "See CK COPYRIGHT.txt for copyright details", 
+      "engine": "CK", 
+      "iso_datetime": "2016-10-02T23:42:32.065853", 
+      "license": "See CK LICENSE.txt for licensing details", 
       "version": [
-        "1",
-        "8",
+        "1", 
+        "8", 
+        "3dev"
+      ]
+    }, 
+    {
+      "author": "cTuning foundation", 
+      "author_email": "admin@cTuning.org", 
+      "author_webpage": "http://cTuning.org", 
+      "copyright": "See CK COPYRIGHT.txt for copyright details", 
+      "engine": "CK", 
+      "iso_datetime": "2016-10-06T00:18:16.044446", 
+      "license": "See CK LICENSE.txt for licensing details", 
+      "version": [
+        "1", 
+        "8", 
         "3dev"
       ]
     }

@@ -1,62 +1,112 @@
 {
-  "backup_data_uid": "2c16481bcfd483b8",
+  "backup_data_uid": "2c16481bcfd483b8", 
   "ck_to_env": {
     "CK_WA_SCRIPTS_PATH": "script:39157fb314f399ae"
-  },
+  }, 
   "clean_dirs": [
     "wa_output"
-  ],
-  "data_name": "WA workload: cyclictest",
+  ], 
+  "data_name": "WA workload: cyclictest", 
   "deps": {
     "wa": {
-      "env_key": "WA",
-      "force_target_as_host": "yes",
-      "local": "yes",
-      "name": "ARM Workload Automation",
-      "sort": 10,
+      "env_key": "WA", 
+      "force_target_as_host": "yes", 
+      "local": "yes", 
+      "name": "ARM Workload Automation", 
+      "sort": 10, 
       "tags": "tool,wa"
     }
-  },
-  "no_compile": "yes",
-  "no_target_file": "yes",
+  }, 
+  "no_compile": "yes", 
+  "no_target_file": "yes", 
+  "params": {
+    "clear_file_cache": {
+      "allowed_values": null, 
+      "default": true, 
+      "desc": "Clear file caches before starting test"
+    }, 
+    "clock": {
+      "allowed_values": [
+        "monotonic", 
+        "realtime"
+      ], 
+      "default": "realtime", 
+      "desc": "specify the clock to be used during the test."
+    }, 
+    "duration": {
+      "allowed_values": null, 
+      "default": 30, 
+      "desc": "Specify the length for the test to run in seconds."
+    }, 
+    "extra_parameters": {
+      "allowed_values": null, 
+      "default": "", 
+      "desc": "Any additional command line parameters to append to the existing parameters above. A list can be found at https://rt.wiki.kernel.org/index.php/Cyclictest or in the help page ``cyclictest -h``"
+    }, 
+    "latency": {
+      "allowed_values": null, 
+      "default": 1000000, 
+      "desc": "Write the value to /dev/cpu_dma_latency"
+    }, 
+    "modules": {
+      "allowed_values": null, 
+      "default": null, 
+      "desc": "\n                  Lists the modules to be loaded by this extension. A module is a plug-in that\n                  further extends functionality of an extension.\n                  "
+    }, 
+    "quiet": {
+      "allowed_values": null, 
+      "default": true, 
+      "desc": "Run the tests quiet and print only a summary on exit."
+    }, 
+    "screen_off": {
+      "allowed_values": null, 
+      "default": true, 
+      "desc": "If true it will turn the screen off so that onscreen graphics do not effect the score. This is predominantly for devices without a GPU"
+    }, 
+    "thread": {
+      "allowed_values": null, 
+      "default": 8, 
+      "desc": "Set the number of test threads"
+    }
+  }, 
   "print_files_after_run": [
-    "tmp-output2.tmp",
-    "wa_output/status.txt",
+    "tmp-output2.tmp", 
+    "wa_output/status.txt", 
     "wa_output/cyclictest_1_1/result.txt"
-  ],
-  "process_in_tmp": "yes",
-  "program": "yes",
+  ], 
+  "process_in_tmp": "yes", 
+  "program": "yes", 
   "required_device_access_type": [
-    "wa_android",
+    "wa_android", 
     "wa_linux"
-  ],
+  ], 
   "run_cmds": {
     "default": {
-      "ignore_return_code": "no",
+      "ignore_return_code": "no", 
       "run_time": {
-        "fine_grain_timer_file": "tmp-ck-timer.json",
+        "fine_grain_timer_file": "tmp-ck-timer.json", 
         "post_process_cmds": [
           "python $<<CK_WA_SCRIPTS_PATH>>$$#dir_sep#$postprocess_workload.py"
-        ],
-        "post_process_via_ck": "yes",
+        ], 
+        "post_process_via_ck": "yes", 
         "pre_process_via_ck": {
-          "data_uoa": "process-wa",
-          "module_uoa": "script",
+          "data_uoa": "process-wa", 
+          "module_uoa": "script", 
           "script_name": "preprocess_workload"
-        },
-        "run_cmd_main": "wa run $<<CK_WA_CMD>>$",
-        "run_cmd_out1": "tmp-output1.tmp",
-        "run_cmd_out2": "tmp-output2.tmp",
+        }, 
+        "run_cmd_main": "wa run $<<CK_WA_CMD>>$", 
+        "run_cmd_out1": "tmp-output1.tmp", 
+        "run_cmd_out2": "tmp-output2.tmp", 
         "run_output_files": []
       }
     }
-  },
-  "run_via_third_party": "yes",
+  }, 
+  "run_via_third_party": "yes", 
   "tags": [
-    "wa",
-    "workload-automation",
+    "wa", 
+    "workload-automation", 
     "cyclictest"
-  ],
-  "wa_alias": "cyclictest",
+  ], 
+  "wa_alias": "cyclictest", 
   "wa_desc": "Measures the amount of time that passes between when a timer expires and when the thread which set the timer actually runs"
 }
