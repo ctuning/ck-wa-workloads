@@ -19,6 +19,36 @@
   }, 
   "no_compile": "yes", 
   "no_target_file": "yes", 
+  "params": {
+    "argstring": {
+      "allowed_values": null, 
+      "default": "", 
+      "desc": "A string that should contain arguments passed to the script.", 
+      "mandatory": null, 
+      "type": "str"
+    }, 
+    "modules": {
+      "allowed_values": null, 
+      "default": null, 
+      "desc": "Lists the modules to be loaded by this extension. A module is a plug-in that further extends functionality of an extension.", 
+      "mandatory": null, 
+      "type": "list"
+    }, 
+    "script_file": {
+      "allowed_values": null, 
+      "default": null, 
+      "desc": "The path (on the host) to the shell script file. This must be an absolute path (though it may contain ~).", 
+      "mandatory": true, 
+      "type": "str"
+    }, 
+    "timeout": {
+      "allowed_values": null, 
+      "default": 60, 
+      "desc": "Timeout, in seconds, for the script run time.", 
+      "mandatory": null, 
+      "type": "integer"
+    }
+  }, 
   "print_files_after_run": [
     "tmp-output2.tmp", 
     "wa_output/status.txt", 

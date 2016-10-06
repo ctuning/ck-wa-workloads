@@ -19,6 +19,98 @@
   }, 
   "no_compile": "yes", 
   "no_target_file": "yes", 
+  "params": {
+    "cmd_params": {
+      "allowed_values": null, 
+      "default": "", 
+      "desc": "Additional parameters to be passed to sysbench as a single stiring", 
+      "mandatory": null, 
+      "type": "str"
+    }, 
+    "file_test_mode": {
+      "allowed_values": [
+        "seqwr", 
+        "seqrewr", 
+        "seqrd", 
+        "rndrd", 
+        "rndwr", 
+        "rndrw"
+      ], 
+      "default": null, 
+      "desc": "File test mode to use. This should only be specified if ``test`` is ``\"fileio\"``; if that is the case and ``file_test_mode`` is not specified, it will default to ``\"seqwr\"`` (please see sysbench documentation for explanation of various modes).", 
+      "mandatory": null, 
+      "type": "str"
+    }, 
+    "force_install": {
+      "allowed_values": null, 
+      "default": true, 
+      "desc": "Always install binary found on the host, even if already installed on device", 
+      "mandatory": null, 
+      "type": "boolean"
+    }, 
+    "max_requests": {
+      "allowed_values": null, 
+      "default": null, 
+      "desc": "The limit for the total number of requests.", 
+      "mandatory": null, 
+      "type": "integer"
+    }, 
+    "max_time": {
+      "allowed_values": null, 
+      "default": null, 
+      "desc": "The limit for the total execution time. If neither this nor                ``max_requests`` is specified, this will default to 30 seconds.", 
+      "mandatory": null, 
+      "type": "integer"
+    }, 
+    "modules": {
+      "allowed_values": null, 
+      "default": null, 
+      "desc": "Lists the modules to be loaded by this extension. A module is a plug-in that further extends functionality of an extension.", 
+      "mandatory": null, 
+      "type": "list"
+    }, 
+    "num_threads": {
+      "allowed_values": null, 
+      "default": null, 
+      "desc": "The number of threads sysbench will launch, overrides  ``threads`` (old parameter name)", 
+      "mandatory": null, 
+      "type": "integer"
+    }, 
+    "taskset_mask": {
+      "allowed_values": null, 
+      "default": 0, 
+      "desc": "The processes spawned by sysbench will be pinned to cores as specified by this parameter", 
+      "mandatory": null, 
+      "type": "integer"
+    }, 
+    "test": {
+      "allowed_values": [
+        "fileio", 
+        "cpu", 
+        "memory", 
+        "threads", 
+        "mutex"
+      ], 
+      "default": "cpu", 
+      "desc": "sysbench test to run", 
+      "mandatory": null, 
+      "type": "str"
+    }, 
+    "threads": {
+      "allowed_values": null, 
+      "default": 8, 
+      "desc": "The number of threads sysbench will launch", 
+      "mandatory": null, 
+      "type": "integer"
+    }, 
+    "timeout": {
+      "allowed_values": null, 
+      "default": 300, 
+      "desc": "timeout for workload execution (adjust from default if running on a slow device and/or specifying a large value for ``max_requests``", 
+      "mandatory": null, 
+      "type": "integer"
+    }
+  }, 
   "print_files_after_run": [
     "tmp-output2.tmp", 
     "wa_output/status.txt", 

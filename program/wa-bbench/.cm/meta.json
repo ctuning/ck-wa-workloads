@@ -23,47 +23,65 @@
     "audio_file": {
       "allowed_values": null, 
       "default": "/home/fursin/.workload_automation/dependencies/Canon_in_D_Piano.mp3", 
-      "desc": "The (on-host) path to the audio file to be played. This is only used if ``with_audio`` is ``True``."
+      "desc": "The (on-host) path to the audio file to be played. This is only used if ``with_audio`` is ``True``.", 
+      "mandatory": null, 
+      "type": "str"
     }, 
     "browser_activity": {
       "allowed_values": null, 
       "default": ".BrowserActivity", 
-      "desc": "Specifies the startup activity  name of the device's browser app."
+      "desc": "Specifies the startup activity  name of the device's browser app.", 
+      "mandatory": null, 
+      "type": "str"
     }, 
     "browser_package": {
       "allowed_values": null, 
       "default": "com.android.browser", 
-      "desc": "Specifies the package name of the device's browser app."
+      "desc": "Specifies the package name of the device's browser app.", 
+      "mandatory": null, 
+      "type": "str"
     }, 
     "clear_file_cache": {
       "allowed_values": null, 
       "default": true, 
-      "desc": "Clear the the file cache on the target device prior to running the workload."
+      "desc": "Clear the the file cache on the target device prior to running the workload.", 
+      "mandatory": null, 
+      "type": "boolean"
     }, 
     "force_dependency_push": {
       "allowed_values": null, 
       "default": false, 
-      "desc": "Specifies whether to push dependency files to the device to the device if they are already on it."
+      "desc": "Specifies whether to push dependency files to the device to the device if they are already on it.", 
+      "mandatory": null, 
+      "type": "boolean"
     }, 
     "modules": {
       "allowed_values": null, 
       "default": null, 
-      "desc": "\n                  Lists the modules to be loaded by this extension. A module is a plug-in that\n                  further extends functionality of an extension.\n                  "
+      "desc": "Lists the modules to be loaded by this extension. A module is a plug-in that further extends functionality of an extension.", 
+      "mandatory": null, 
+      "type": "list"
     }, 
     "perform_cleanup": {
       "allowed_values": null, 
       "default": false, 
-      "desc": "If ``True``, workload files on the device will be deleted after execution."
+      "desc": "If ``True``, workload files on the device will be deleted after execution.", 
+      "mandatory": null, 
+      "type": "boolean"
     }, 
     "server_timeout": {
       "allowed_values": null, 
       "default": 300, 
-      "desc": "Specifies the timeout (in seconds) before the server is stopped."
+      "desc": "Specifies the timeout (in seconds) before the server is stopped.", 
+      "mandatory": null, 
+      "type": "integer"
     }, 
     "with_audio": {
       "allowed_values": null, 
       "default": false, 
-      "desc": "Specifies whether an MP3 should be played in the background during workload execution."
+      "desc": "Specifies whether an MP3 should be played in the background during workload execution.", 
+      "mandatory": null, 
+      "type": "boolean"
     }
   }, 
   "print_files_after_run": [

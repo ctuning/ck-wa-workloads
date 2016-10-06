@@ -23,17 +23,23 @@
     "frames": {
       "allowed_values": null, 
       "default": 150, 
-      "desc": "The number of frames to run the test over."
+      "desc": "The number of frames to run the test over.", 
+      "mandatory": null, 
+      "type": "integer"
     }, 
     "loops": {
       "allowed_values": null, 
       "default": 3, 
-      "desc": "The number of test iterations."
+      "desc": "The number of test iterations.", 
+      "mandatory": null, 
+      "type": "integer"
     }, 
     "modules": {
       "allowed_values": null, 
       "default": null, 
-      "desc": "\n                  Lists the modules to be loaded by this extension. A module is a plug-in that\n                  further extends functionality of an extension.\n                  "
+      "desc": "Lists the modules to be loaded by this extension. A module is a plug-in that further extends functionality of an extension.", 
+      "mandatory": null, 
+      "type": "list"
     }, 
     "test": {
       "allowed_values": [
@@ -42,7 +48,9 @@
         "oval"
       ], 
       "default": "shadowgrid", 
-      "desc": "\n                  The test to run:\n                     - ``'shadowgrid'``: creates a grid of rounded rects that\n                       cast shadows, high CPU & GPU load\n                     - ``'rectgrid'``: creates a grid of 1x1 rects\n                     - ``'oval'``: draws 1 oval\n                  "
+      "desc": "The test to run:    - ``'shadowgrid'``: creates a grid of rounded rects that      cast shadows, high CPU & GPU load    - ``'rectgrid'``: creates a grid of 1x1 rects    - ``'oval'``: draws 1 oval", 
+      "mandatory": null, 
+      "type": "caseless_string"
     }
   }, 
   "print_files_after_run": [

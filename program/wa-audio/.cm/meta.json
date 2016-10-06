@@ -19,6 +19,43 @@
   }, 
   "no_compile": "yes", 
   "no_target_file": "yes", 
+  "params": {
+    "audio_file": {
+      "allowed_values": null, 
+      "default": "/home/fursin/.workload_automation/dependencies/Canon_in_D_Piano.mp3", 
+      "desc": "The (on-host) path to the audio file to be played.                .. note:: If the default file is not present locally, it will be downloaded.", 
+      "mandatory": null, 
+      "type": "str"
+    }, 
+    "clear_file_cache": {
+      "allowed_values": null, 
+      "default": true, 
+      "desc": "Clear the the file cache on the target device prior to running the workload.", 
+      "mandatory": null, 
+      "type": "boolean"
+    }, 
+    "duration": {
+      "allowed_values": null, 
+      "default": 30, 
+      "desc": "The duration the music will play for in seconds.", 
+      "mandatory": null, 
+      "type": "integer"
+    }, 
+    "modules": {
+      "allowed_values": null, 
+      "default": null, 
+      "desc": "Lists the modules to be loaded by this extension. A module is a plug-in that further extends functionality of an extension.", 
+      "mandatory": null, 
+      "type": "list"
+    }, 
+    "perform_cleanup": {
+      "allowed_values": null, 
+      "default": false, 
+      "desc": "If ``True``, workload files on the device will be deleted after execution.", 
+      "mandatory": null, 
+      "type": "boolean"
+    }
+  }, 
   "print_files_after_run": [
     "tmp-output2.tmp", 
     "wa_output/status.txt", 

@@ -19,6 +19,32 @@
   }, 
   "no_compile": "yes", 
   "no_target_file": "yes", 
+  "params": {
+    "modules": {
+      "allowed_values": null, 
+      "default": null, 
+      "desc": "Lists the modules to be loaded by this extension. A module is a plug-in that further extends functionality of an extension.", 
+      "mandatory": null, 
+      "type": "list"
+    }, 
+    "recording_mode": {
+      "allowed_values": [
+        "normal", 
+        "slow_motion"
+      ], 
+      "default": "normal", 
+      "desc": "The video recording mode.", 
+      "mandatory": null, 
+      "type": "str"
+    }, 
+    "recording_time": {
+      "allowed_values": null, 
+      "default": 60, 
+      "desc": "The video recording time in seconds.", 
+      "mandatory": null, 
+      "type": "integer"
+    }
+  }, 
   "print_files_after_run": [
     "tmp-output2.tmp", 
     "wa_output/status.txt", 

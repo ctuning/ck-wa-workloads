@@ -23,22 +23,30 @@
     "buffer_size": {
       "allowed_values": null, 
       "default": 5242880, 
-      "desc": "Specifies the size, in bytes, of the buffer to be copied."
+      "desc": "Specifies the size, in bytes, of the buffer to be copied.", 
+      "mandatory": null, 
+      "type": "integer"
     }, 
     "cpus": {
       "allowed_values": null, 
       "default": [], 
-      "desc": "A list of integers specifying ordinals of cores to which the affinity\n                                 of the test process should be set. If not specified, all avaiable cores\n                                 will be used.\n                  "
+      "desc": "A list of integers specifying ordinals of cores to which the affinity                of the test process should be set. If not specified, all avaiable cores                will be used.", 
+      "mandatory": null, 
+      "type": "list"
     }, 
     "iterations": {
       "allowed_values": null, 
       "default": 1000, 
-      "desc": "Specfies the number of iterations that will be performed."
+      "desc": "Specfies the number of iterations that will be performed.", 
+      "mandatory": null, 
+      "type": "integer"
     }, 
     "modules": {
       "allowed_values": null, 
       "default": null, 
-      "desc": "\n                  Lists the modules to be loaded by this extension. A module is a plug-in that\n                  further extends functionality of an extension.\n                  "
+      "desc": "Lists the modules to be loaded by this extension. A module is a plug-in that further extends functionality of an extension.", 
+      "mandatory": null, 
+      "type": "list"
     }
   }, 
   "print_files_after_run": [

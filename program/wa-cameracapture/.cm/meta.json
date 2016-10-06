@@ -19,6 +19,29 @@
   }, 
   "no_compile": "yes", 
   "no_target_file": "yes", 
+  "params": {
+    "modules": {
+      "allowed_values": null, 
+      "default": null, 
+      "desc": "Lists the modules to be loaded by this extension. A module is a plug-in that further extends functionality of an extension.", 
+      "mandatory": null, 
+      "type": "list"
+    }, 
+    "no_of_captures": {
+      "allowed_values": null, 
+      "default": 5, 
+      "desc": "Number of photos to be taken.", 
+      "mandatory": null, 
+      "type": "integer"
+    }, 
+    "time_between_captures": {
+      "allowed_values": null, 
+      "default": 5, 
+      "desc": "Time, in seconds, between two consecutive camera clicks.", 
+      "mandatory": null, 
+      "type": "integer"
+    }
+  }, 
   "print_files_after_run": [
     "tmp-output2.tmp", 
     "wa_output/status.txt", 

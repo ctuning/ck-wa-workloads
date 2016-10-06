@@ -23,27 +23,37 @@
     "duration": {
       "allowed_values": null, 
       "default": null, 
-      "desc": "Control of the devices is yielded for the duration (in seconds) specified. If not specified, ``user_triggered`` is assumed."
+      "desc": "Control of the devices is yielded for the duration (in seconds) specified. If not specified, ``user_triggered`` is assumed.", 
+      "mandatory": null, 
+      "type": "integer"
     }, 
     "enable_logcat": {
       "allowed_values": null, 
       "default": null, 
-      "desc": "If ``True``, ``manual`` workload will collect logcat as part of the results."
+      "desc": "If ``True``, ``manual`` workload will collect logcat as part of the results.", 
+      "mandatory": null, 
+      "type": "boolean"
     }, 
     "modules": {
       "allowed_values": null, 
       "default": null, 
-      "desc": "\n                  Lists the modules to be loaded by this extension. A module is a plug-in that\n                  further extends functionality of an extension.\n                  "
+      "desc": "Lists the modules to be loaded by this extension. A module is a plug-in that further extends functionality of an extension.", 
+      "mandatory": null, 
+      "type": "list"
     }, 
     "user_triggered": {
       "allowed_values": null, 
       "default": null, 
-      "desc": "If ``True``, WA will wait for user input after starting the workload;\n                                otherwise fixed duration is expected. Defaults to ``True`` if ``duration``\n                                is not specified, and ``False`` otherwise.\n                  "
+      "desc": "If ``True``, WA will wait for user input after starting the workload;               otherwise fixed duration is expected. Defaults to ``True`` if ``duration``               is not specified, and ``False`` otherwise.", 
+      "mandatory": null, 
+      "type": "boolean"
     }, 
     "view": {
       "allowed_values": null, 
       "default": "SurfaceView", 
-      "desc": "Specifies the View of the workload. This enables instruments that require a\n                                 View to be specified, such as the ``fps`` instrument."
+      "desc": "Specifies the View of the workload. This enables instruments that require a                View to be specified, such as the ``fps`` instrument.", 
+      "mandatory": null, 
+      "type": "str"
     }
   }, 
   "print_files_after_run": [

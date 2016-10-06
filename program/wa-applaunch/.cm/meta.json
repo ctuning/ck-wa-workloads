@@ -19,6 +19,74 @@
   }, 
   "no_compile": "yes", 
   "no_target_file": "yes", 
+  "params": {
+    "app": {
+      "allowed_values": [
+        "calculator", 
+        "browser", 
+        "calendar"
+      ], 
+      "default": "browser", 
+      "desc": "The name of the application to measure.", 
+      "mandatory": null, 
+      "type": "str"
+    }, 
+    "cleanup": {
+      "allowed_values": null, 
+      "default": true, 
+      "desc": "Specifies whether to clean up temporary files on the device.", 
+      "mandatory": null, 
+      "type": "boolean"
+    }, 
+    "io_scheduler": {
+      "allowed_values": [
+        "noop", 
+        "deadline", 
+        "row", 
+        "cfq", 
+        "bfq"
+      ], 
+      "default": null, 
+      "desc": "Set the IO scheduler to test on the device.", 
+      "mandatory": null, 
+      "type": "str"
+    }, 
+    "io_stress": {
+      "allowed_values": null, 
+      "default": false, 
+      "desc": "Specifies whether to stress IO during App launch.", 
+      "mandatory": null, 
+      "type": "boolean"
+    }, 
+    "measure_energy": {
+      "allowed_values": null, 
+      "default": false, 
+      "desc": "Specfies wether energy measurments should be taken during the run. .. note:: This depends on appropriate sensors to be exposed through HWMON.", 
+      "mandatory": null, 
+      "type": "boolean"
+    }, 
+    "modules": {
+      "allowed_values": null, 
+      "default": null, 
+      "desc": "Lists the modules to be loaded by this extension. A module is a plug-in that further extends functionality of an extension.", 
+      "mandatory": null, 
+      "type": "list"
+    }, 
+    "set_launcher_affinity": {
+      "allowed_values": null, 
+      "default": true, 
+      "desc": "If ``True``, this will explicitly set the affinity of the launcher process to the A15 cluster.", 
+      "mandatory": null, 
+      "type": "boolean"
+    }, 
+    "times": {
+      "allowed_values": null, 
+      "default": 8, 
+      "desc": "Number of app launches to do on the device.", 
+      "mandatory": null, 
+      "type": "integer"
+    }
+  }, 
   "print_files_after_run": [
     "tmp-output2.tmp", 
     "wa_output/status.txt", 

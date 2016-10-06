@@ -23,7 +23,9 @@
     "clear_file_cache": {
       "allowed_values": null, 
       "default": true, 
-      "desc": "Clear file caches before starting test"
+      "desc": "Clear file caches before starting test", 
+      "mandatory": null, 
+      "type": "boolean"
     }, 
     "clock": {
       "allowed_values": [
@@ -31,42 +33,58 @@
         "realtime"
       ], 
       "default": "realtime", 
-      "desc": "specify the clock to be used during the test."
+      "desc": "specify the clock to be used during the test.", 
+      "mandatory": null, 
+      "type": "str"
     }, 
     "duration": {
       "allowed_values": null, 
       "default": 30, 
-      "desc": "Specify the length for the test to run in seconds."
+      "desc": "Specify the length for the test to run in seconds.", 
+      "mandatory": null, 
+      "type": "integer"
     }, 
     "extra_parameters": {
       "allowed_values": null, 
       "default": "", 
-      "desc": "Any additional command line parameters to append to the existing parameters above. A list can be found at https://rt.wiki.kernel.org/index.php/Cyclictest or in the help page ``cyclictest -h``"
+      "desc": "Any additional command line parameters to append to the existing parameters above. A list can be found at https://rt.wiki.kernel.org/index.php/Cyclictest or in the help page ``cyclictest -h``", 
+      "mandatory": null, 
+      "type": "str"
     }, 
     "latency": {
       "allowed_values": null, 
       "default": 1000000, 
-      "desc": "Write the value to /dev/cpu_dma_latency"
+      "desc": "Write the value to /dev/cpu_dma_latency", 
+      "mandatory": null, 
+      "type": "integer"
     }, 
     "modules": {
       "allowed_values": null, 
       "default": null, 
-      "desc": "\n                  Lists the modules to be loaded by this extension. A module is a plug-in that\n                  further extends functionality of an extension.\n                  "
+      "desc": "Lists the modules to be loaded by this extension. A module is a plug-in that further extends functionality of an extension.", 
+      "mandatory": null, 
+      "type": "list"
     }, 
     "quiet": {
       "allowed_values": null, 
       "default": true, 
-      "desc": "Run the tests quiet and print only a summary on exit."
+      "desc": "Run the tests quiet and print only a summary on exit.", 
+      "mandatory": null, 
+      "type": "boolean"
     }, 
     "screen_off": {
       "allowed_values": null, 
       "default": true, 
-      "desc": "If true it will turn the screen off so that onscreen graphics do not effect the score. This is predominantly for devices without a GPU"
+      "desc": "If true it will turn the screen off so that onscreen graphics do not effect the score. This is predominantly for devices without a GPU", 
+      "mandatory": null, 
+      "type": "boolean"
     }, 
     "thread": {
       "allowed_values": null, 
       "default": 8, 
-      "desc": "Set the number of test threads"
+      "desc": "Set the number of test threads", 
+      "mandatory": null, 
+      "type": "integer"
     }
   }, 
   "print_files_after_run": [

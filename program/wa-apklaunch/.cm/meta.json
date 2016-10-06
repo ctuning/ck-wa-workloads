@@ -23,22 +23,30 @@
     "apk_file": {
       "allowed_values": null, 
       "default": null, 
-      "desc": "Name to the .apk to run"
+      "desc": "Name to the .apk to run", 
+      "mandatory": true, 
+      "type": "str"
     }, 
     "modules": {
       "allowed_values": null, 
       "default": null, 
-      "desc": "\n                  Lists the modules to be loaded by this extension. A module is a plug-in that\n                  further extends functionality of an extension.\n                  "
+      "desc": "Lists the modules to be loaded by this extension. A module is a plug-in that further extends functionality of an extension.", 
+      "mandatory": null, 
+      "type": "list"
     }, 
     "uninstall_required": {
       "allowed_values": null, 
       "default": false, 
-      "desc": "Set to true if the package should be uninstalled"
+      "desc": "Set to true if the package should be uninstalled", 
+      "mandatory": null, 
+      "type": "boolean"
     }, 
     "wait_time_seconds": {
       "allowed_values": null, 
       "default": 0, 
-      "desc": "Seconds to wait before testing if the app is still alive"
+      "desc": "Seconds to wait before testing if the app is still alive", 
+      "mandatory": null, 
+      "type": "integer"
     }
   }, 
   "print_files_after_run": [

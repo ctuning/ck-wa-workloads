@@ -19,6 +19,43 @@
   }, 
   "no_compile": "yes", 
   "no_target_file": "yes", 
+  "params": {
+    "chunks": {
+      "allowed_values": null, 
+      "default": 10, 
+      "desc": "Number of memory chunks to allocate.", 
+      "mandatory": null, 
+      "type": "integer"
+    }, 
+    "extra_params": {
+      "allowed_values": null, 
+      "default": "", 
+      "desc": "Extra parameters to pass in (e.g. -M to disable mmap). See ebizzy -? for full list of options.", 
+      "mandatory": null, 
+      "type": "str"
+    }, 
+    "modules": {
+      "allowed_values": null, 
+      "default": null, 
+      "desc": "Lists the modules to be loaded by this extension. A module is a plug-in that further extends functionality of an extension.", 
+      "mandatory": null, 
+      "type": "list"
+    }, 
+    "seconds": {
+      "allowed_values": null, 
+      "default": 10, 
+      "desc": "Number of seconds.", 
+      "mandatory": null, 
+      "type": "integer"
+    }, 
+    "threads": {
+      "allowed_values": null, 
+      "default": 2, 
+      "desc": "Number of threads to execute.", 
+      "mandatory": null, 
+      "type": "integer"
+    }
+  }, 
   "print_files_after_run": [
     "tmp-output2.tmp", 
     "wa_output/status.txt", 

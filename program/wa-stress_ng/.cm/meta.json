@@ -19,6 +19,57 @@
   }, 
   "no_compile": "yes", 
   "no_target_file": "yes", 
+  "params": {
+    "duration": {
+      "allowed_values": null, 
+      "default": 60, 
+      "desc": "Timeout for test execution in seconds", 
+      "mandatory": null, 
+      "type": "integer"
+    }, 
+    "modules": {
+      "allowed_values": null, 
+      "default": null, 
+      "desc": "Lists the modules to be loaded by this extension. A module is a plug-in that further extends functionality of an extension.", 
+      "mandatory": null, 
+      "type": "list"
+    }, 
+    "stressor": {
+      "allowed_values": [
+        "cpu", 
+        "io", 
+        "fork", 
+        "switch", 
+        "vm", 
+        "pipe", 
+        "yield", 
+        "hdd", 
+        "cache", 
+        "sock", 
+        "fallocate", 
+        "flock", 
+        "affinity", 
+        "timer", 
+        "dentry", 
+        "urandom", 
+        "sem", 
+        "open", 
+        "sigq", 
+        "poll"
+      ], 
+      "default": "cpu", 
+      "desc": "Stress test case name. The cases listed in allowed values come from the stable release version 0.01.32. The binary included here compiled from dev version 0.06.01. Refer to man page for the definition of each stressor.", 
+      "mandatory": null, 
+      "type": "str"
+    }, 
+    "threads": {
+      "allowed_values": null, 
+      "default": 0, 
+      "desc": "The number of workers to run. Specifying a negative or zero value will select the number of online processors.", 
+      "mandatory": null, 
+      "type": "integer"
+    }
+  }, 
   "print_files_after_run": [
     "tmp-output2.tmp", 
     "wa_output/status.txt", 

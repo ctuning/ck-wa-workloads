@@ -19,6 +19,60 @@
   }, 
   "no_compile": "yes", 
   "no_target_file": "yes", 
+  "params": {
+    "benchmarks": {
+      "allowed_values": null, 
+      "default": null, 
+      "desc": "Specfiles the SPEC benchmarks to run.", 
+      "mandatory": null, 
+      "type": "list_or_string"
+    }, 
+    "force_extract_assets": {
+      "allowed_values": null, 
+      "default": false, 
+      "desc": "if set to ``True``, will extract assets from the bundle, even if they are already extracted. Note: this option implies ``force_push_assets``.", 
+      "mandatory": null, 
+      "type": "boolean"
+    }, 
+    "force_push_assets": {
+      "allowed_values": null, 
+      "default": false, 
+      "desc": "If set to ``True``, assets will be pushed to device even if they're already present.", 
+      "mandatory": null, 
+      "type": "boolean"
+    }, 
+    "mode": {
+      "allowed_values": [
+        "speed", 
+        "rate"
+      ], 
+      "default": "speed", 
+      "desc": "SPEC benchmarks can report either speed to execute or throughput/rate. In the latter case, several \"threads\" will be spawned.", 
+      "mandatory": null, 
+      "type": "str"
+    }, 
+    "modules": {
+      "allowed_values": null, 
+      "default": null, 
+      "desc": "Lists the modules to be loaded by this extension. A module is a plug-in that further extends functionality of an extension.", 
+      "mandatory": null, 
+      "type": "list"
+    }, 
+    "number_of_threads": {
+      "allowed_values": null, 
+      "default": null, 
+      "desc": "Specify the number of \"threads\" to be used in 'rate' mode. (Note: on big.LITTLE systems this is the number of threads, for *each cluster*).", 
+      "mandatory": null, 
+      "type": "integer"
+    }, 
+    "timeout": {
+      "allowed_values": null, 
+      "default": 1200, 
+      "desc": "Timemout, in seconds, for the execution of single spec test.", 
+      "mandatory": null, 
+      "type": "integer"
+    }
+  }, 
   "print_files_after_run": [
     "tmp-output2.tmp", 
     "wa_output/status.txt", 

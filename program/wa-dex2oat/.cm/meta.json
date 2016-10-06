@@ -29,12 +29,16 @@
         "mips"
       ], 
       "default": "arm64", 
-      "desc": "Specifies the instruction set to compile for.  Only options supported by\n                                 the target device can be used."
+      "desc": "Specifies the instruction set to compile for.  Only options supported by                the target device can be used.", 
+      "mandatory": null, 
+      "type": "str"
     }, 
     "modules": {
       "allowed_values": null, 
       "default": null, 
-      "desc": "\n                  Lists the modules to be loaded by this extension. A module is a plug-in that\n                  further extends functionality of an extension.\n                  "
+      "desc": "Lists the modules to be loaded by this extension. A module is a plug-in that further extends functionality of an extension.", 
+      "mandatory": null, 
+      "type": "list"
     }
   }, 
   "print_files_after_run": [

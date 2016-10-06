@@ -19,6 +19,78 @@
   }, 
   "no_compile": "yes", 
   "no_target_file": "yes", 
+  "params": {
+    "auto_mode": {
+      "allowed_values": null, 
+      "default": true, 
+      "desc": "Run tests in auto mode.", 
+      "mandatory": null, 
+      "type": "boolean"
+    }, 
+    "file_size": {
+      "allowed_values": null, 
+      "default": null, 
+      "desc": "Fixed file size.", 
+      "mandatory": null, 
+      "type": "integer"
+    }, 
+    "modules": {
+      "allowed_values": null, 
+      "default": null, 
+      "desc": "Lists the modules to be loaded by this extension. A module is a plug-in that further extends functionality of an extension.", 
+      "mandatory": null, 
+      "type": "list"
+    }, 
+    "other_params": {
+      "allowed_values": null, 
+      "default": "", 
+      "desc": "Other parameter. Run iozone -h to see list of options.", 
+      "mandatory": null, 
+      "type": "str"
+    }, 
+    "record_length": {
+      "allowed_values": null, 
+      "default": null, 
+      "desc": "Fixed record length.", 
+      "mandatory": null, 
+      "type": "integer"
+    }, 
+    "tests": {
+      "allowed_values": [
+        0, 
+        1, 
+        2, 
+        3, 
+        4, 
+        5, 
+        6, 
+        7, 
+        8, 
+        9, 
+        10, 
+        11, 
+        12
+      ], 
+      "default": null, 
+      "desc": "List of performance tests to run.", 
+      "mandatory": null, 
+      "type": "list_of_ints"
+    }, 
+    "threads": {
+      "allowed_values": null, 
+      "default": null, 
+      "desc": "Number of threads", 
+      "mandatory": null, 
+      "type": "integer"
+    }, 
+    "timeout": {
+      "allowed_values": null, 
+      "default": 14400, 
+      "desc": "Timeout for the workload.", 
+      "mandatory": null, 
+      "type": "integer"
+    }
+  }, 
   "print_files_after_run": [
     "tmp-output2.tmp", 
     "wa_output/status.txt", 

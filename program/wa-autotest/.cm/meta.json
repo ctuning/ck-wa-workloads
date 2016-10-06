@@ -19,6 +19,36 @@
   }, 
   "no_compile": "yes", 
   "no_target_file": "yes", 
+  "params": {
+    "modules": {
+      "allowed_values": null, 
+      "default": null, 
+      "desc": "Lists the modules to be loaded by this extension. A module is a plug-in that further extends functionality of an extension.", 
+      "mandatory": null, 
+      "type": "list"
+    }, 
+    "run_timeout": {
+      "allowed_values": null, 
+      "default": 1800, 
+      "desc": "Timeout, in seconds, for the test execution.", 
+      "mandatory": null, 
+      "type": "integer"
+    }, 
+    "test": {
+      "allowed_values": null, 
+      "default": null, 
+      "desc": "The test to be run", 
+      "mandatory": true, 
+      "type": "str"
+    }, 
+    "test_that_args": {
+      "allowed_values": null, 
+      "default": "", 
+      "desc": "Extra arguments to be passed to test_that_invocation.", 
+      "mandatory": null, 
+      "type": "arguments"
+    }
+  }, 
   "print_files_after_run": [
     "tmp-output2.tmp", 
     "wa_output/status.txt", 

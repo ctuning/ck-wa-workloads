@@ -23,27 +23,37 @@
     "board": {
       "allowed_values": null, 
       "default": null, 
-      "desc": "\n                  The name of the board to be used for the test. If this is not specified,\n                  BOARD environment variable will be used.\n                  "
+      "desc": "The name of the board to be used for the test. If this is not specified, BOARD environment variable will be used.", 
+      "mandatory": null, 
+      "type": "str"
     }, 
     "modules": {
       "allowed_values": null, 
       "default": null, 
-      "desc": "\n                  Lists the modules to be loaded by this extension. A module is a plug-in that\n                  further extends functionality of an extension.\n                  "
+      "desc": "Lists the modules to be loaded by this extension. A module is a plug-in that further extends functionality of an extension.", 
+      "mandatory": null, 
+      "type": "list"
     }, 
     "run_timeout": {
       "allowed_values": null, 
       "default": 86400, 
-      "desc": "\n                  Timeout, in seconds, for the test execution.\n                  "
+      "desc": "Timeout, in seconds, for the test execution.", 
+      "mandatory": null, 
+      "type": "integer"
     }, 
     "test_that_args": {
       "allowed_values": null, 
       "default": "", 
-      "desc": "\n                  Extra arguments to be passed to test_that_invocation.\n                  "
+      "desc": "Extra arguments to be passed to test_that_invocation.", 
+      "mandatory": null, 
+      "type": "arguments"
     }, 
     "variant": {
       "allowed_values": null, 
       "default": null, 
-      "desc": "\n                  The variant of the test to run; If not specified, the full power_LoadTest will\n                  run (until the device battery is drained). The only other variant available in the\n                  vanilla test is \"1hour\", but further variants may be added by providing custom\n                  control files.\n                  "
+      "desc": "The variant of the test to run; If not specified, the full power_LoadTest will run (until the device battery is drained). The only other variant available in the vanilla test is \"1hour\", but further variants may be added by providing custom control files.", 
+      "mandatory": null, 
+      "type": "str"
     }
   }, 
   "print_files_after_run": [

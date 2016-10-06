@@ -23,37 +23,51 @@
     "datasize": {
       "allowed_values": null, 
       "default": 100, 
-      "desc": "Message size in bytes."
+      "desc": "Message size in bytes.", 
+      "mandatory": null, 
+      "type": "integer"
     }, 
     "duration": {
       "allowed_values": null, 
       "default": 30, 
-      "desc": "Test duration in seconds."
+      "desc": "Test duration in seconds.", 
+      "mandatory": null, 
+      "type": "integer"
     }, 
     "extra_params": {
       "allowed_values": null, 
       "default": "", 
-      "desc": "Extra parameters to pass in. See the hackbench man page or type `hackbench --help` for list of options."
+      "desc": "Extra parameters to pass in. See the hackbench man page or type `hackbench --help` for list of options.", 
+      "mandatory": null, 
+      "type": "str"
     }, 
     "fds": {
       "allowed_values": null, 
       "default": 40, 
-      "desc": "Number of file descriptors."
+      "desc": "Number of file descriptors.", 
+      "mandatory": null, 
+      "type": "integer"
     }, 
     "groups": {
       "allowed_values": null, 
       "default": 10, 
-      "desc": "Number of groups."
+      "desc": "Number of groups.", 
+      "mandatory": null, 
+      "type": "integer"
     }, 
     "loops": {
       "allowed_values": null, 
       "default": 100, 
-      "desc": "Number of loops."
+      "desc": "Number of loops.", 
+      "mandatory": null, 
+      "type": "integer"
     }, 
     "modules": {
       "allowed_values": null, 
       "default": null, 
-      "desc": "\n                  Lists the modules to be loaded by this extension. A module is a plug-in that\n                  further extends functionality of an extension.\n                  "
+      "desc": "Lists the modules to be loaded by this extension. A module is a plug-in that further extends functionality of an extension.", 
+      "mandatory": null, 
+      "type": "list"
     }
   }, 
   "print_files_after_run": [
