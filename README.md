@@ -1,7 +1,7 @@
 Workloads from ARM WA in Collective Knowledge Format
 ====================================================
 
-Status
-======
-Heavy development phase ...
+You can find more info at CK-WA GitHub page:
+* http://github.com/ctuning/ck-wa
+
 
