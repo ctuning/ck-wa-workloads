@@ -1,4 +1,7 @@
 {
+  "apk": {
+    "name": "com.antutu.ABenchMark"
+  }, 
   "backup_data_uid": "7ceb6e3e485db176", 
   "ck_to_env": {
     "CK_WA_SCRIPTS_PATH": "script:39157fb314f399ae"
@@ -79,7 +82,7 @@
         "5.3.0", 
         "6.0.1"
       ], 
-      "default": "6.0.1", 
+      "default": "5.3.0", 
       "desc": "Specify the version of AnTuTu to be run. If not specified, the latest available version will be used."
     }
   }, 
