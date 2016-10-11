@@ -1,4 +1,7 @@
 {
+  "apk": {
+    "name": "com.google.android.gallery3d"
+  }, 
   "backup_data_uid": "cb7b975ab9d74fc6", 
   "ck_to_env": {
     "CK_WA_SCRIPTS_PATH": "script:39157fb314f399ae"

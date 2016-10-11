@@ -1,4 +1,7 @@
 {
+  "apk": {
+    "name": "com.skype.raider"
+  }, 
   "backup_data_uid": "aa81cc48dee40cf9", 
   "ck_to_env": {
     "CK_WA_SCRIPTS_PATH": "script:39157fb314f399ae"

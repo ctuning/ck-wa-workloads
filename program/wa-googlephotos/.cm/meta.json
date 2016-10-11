@@ -1,4 +1,7 @@
 {
+  "apk": {
+    "name": "com.google.android.apps.photos"
+  }, 
   "backup_data_uid": "359cdc36e3384682", 
   "ck_to_env": {
     "CK_WA_SCRIPTS_PATH": "script:39157fb314f399ae"

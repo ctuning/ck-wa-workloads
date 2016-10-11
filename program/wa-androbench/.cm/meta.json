@@ -1,4 +1,7 @@
 {
+  "apk": {
+    "name": "com.andromeda.androbench2"
+  }, 
   "backup_data_uid": "654d159f0cd11a8a", 
   "ck_to_env": {
     "CK_WA_SCRIPTS_PATH": "script:39157fb314f399ae"

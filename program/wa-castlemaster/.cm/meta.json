@@ -1,4 +1,7 @@
 {
+  "apk": {
+    "name": "com.alphacloud.castlemaster"
+  }, 
   "backup_data_uid": "ebd2540ebad1b0e5", 
   "ck_to_env": {
     "CK_WA_SCRIPTS_PATH": "script:39157fb314f399ae"

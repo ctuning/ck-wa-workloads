@@ -1,4 +1,7 @@
 {
+  "apk": {
+    "name": "com.eembc.coremark"
+  }, 
   "backup_data_uid": "55ac934b35b25132", 
   "ck_to_env": {
     "CK_WA_SCRIPTS_PATH": "script:39157fb314f399ae"

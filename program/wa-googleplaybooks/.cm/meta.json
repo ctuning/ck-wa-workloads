@@ -1,4 +1,7 @@
 {
+  "apk": {
+    "name": "com.google.android.apps.books"
+  }, 
   "backup_data_uid": "ab42ba424950aeb1", 
   "ck_to_env": {
     "CK_WA_SCRIPTS_PATH": "script:39157fb314f399ae"

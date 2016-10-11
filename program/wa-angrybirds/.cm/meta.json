@@ -1,4 +1,7 @@
 {
+  "apk": {
+    "name": "com.rovio.angrybirds"
+  }, 
   "backup_data_uid": "19c2194f90a1eac9", 
   "ck_to_env": {
     "CK_WA_SCRIPTS_PATH": "script:39157fb314f399ae"

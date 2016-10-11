@@ -1,4 +1,7 @@
 {
+  "apk": {
+    "name": "com.epicgames.EpicCitadel"
+  }, 
   "backup_data_uid": "9c686b9ba24164ad", 
   "ck_to_env": {
     "CK_WA_SCRIPTS_PATH": "script:39157fb314f399ae"

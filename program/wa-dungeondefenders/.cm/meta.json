@@ -1,4 +1,7 @@
 {
+  "apk": {
+    "name": "com.trendy.ddapp"
+  }, 
   "backup_data_uid": "446f8b6c918434de", 
   "ck_to_env": {
     "CK_WA_SCRIPTS_PATH": "script:39157fb314f399ae"

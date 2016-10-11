@@ -1,4 +1,7 @@
 {
+  "apk": {
+    "name": "com.google.android.apps.docs.editors.slides"
+  }, 
   "backup_data_uid": "7b2a3cd561248be8", 
   "ck_to_env": {
     "CK_WA_SCRIPTS_PATH": "script:39157fb314f399ae"

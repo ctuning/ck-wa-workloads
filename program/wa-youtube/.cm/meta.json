@@ -1,4 +1,7 @@
 {
+  "apk": {
+    "name": "com.google.android.youtube"
+  }, 
   "backup_data_uid": "1f0867a77f9a418b", 
   "ck_to_env": {
     "CK_WA_SCRIPTS_PATH": "script:39157fb314f399ae"

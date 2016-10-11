@@ -1,4 +1,7 @@
 {
+  "apk": {
+    "name": "com.elevenbitstudios.anomaly2Benchmark"
+  }, 
   "backup_data_uid": "4f5f809477b7b527", 
   "ck_to_env": {
     "CK_WA_SCRIPTS_PATH": "script:39157fb314f399ae"
