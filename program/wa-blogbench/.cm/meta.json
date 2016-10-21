@@ -8,6 +8,15 @@
   ], 
   "data_name": "WA workload: blogbench", 
   "deps": {
+    "android-sdk": {
+      "android-sdk": {
+        "force_target_as_host": "yes", 
+        "local": "yes", 
+        "name": "Android SDK", 
+        "sort": 5, 
+        "tags": "android,sdk"
+      }
+    }, 
     "wa": {
       "env_key": "WA", 
       "force_target_as_host": "yes", 

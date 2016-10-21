@@ -1,3 +1,5 @@
+* 2016.10.21 - added dependency on Android SDK for specific apps such as dhrystone and memcopy
+
 * 2016.10.11 - added APK names
 
 * 2016.10.06 - added reading of default parameters during WA import
