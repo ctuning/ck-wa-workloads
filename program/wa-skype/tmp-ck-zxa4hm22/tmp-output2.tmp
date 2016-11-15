@@ -1,0 +1,24 @@
+[32mINFO     [0mRemoving existing output directory.[32m[0m
+[32mINFO     [0mCreating output directory.[32m[0m
+[32mINFO     [0mInitializing[32m[0m
+[32mINFO     [0mRunning workloads[32m[0m
+[32mINFO     [0mConnecting to device[32m[0m
+[32mINFO     [0mInitializing device[32m[0m
+[32mINFO     [0mInitializing workloads[32m[0m
+[32mINFO     [0mRunning workload 1 skype (iteration 1)[32m[0m
+[32mINFO     [0m	Setting up[32m[0m
+[32mINFO     [0m	Skipping the rest of the iterations for this spec.[32m[0m
+[31mERROR    [0mError while running skype:[31m[0m
+[31mERROR    [0m	Workload "skype" requires internet. Device "generic_android" does not appear to be connected to the internet.[31m[0m
+[32mINFO     [0mJob status was FAILED. Retrying...[32m[0m
+[32mINFO     [0mSkipping workload 1 skype (iteration 2)[32m[0m
+[32mINFO     [0mFinalizing workloads[32m[0m
+[32mINFO     [0mFinalizing.[32m[0m
+[32mINFO     [0mProcessing overall results[32m[0m
+[32mINFO     [0mStatus available in /home/fursin/CK/local/wa-result/0a5b4f7cb40d5596/20161013-153342/wa-output/status.txt[32m[0m
+[32mINFO     [0mDone.[32m[0m
+[32mINFO     [0mRun duration: 4 seconds[32m[0m
+[32mINFO     [0mRan a total of 2 iterations: 1 FAILED, 1 SKIPPED[32m[0m
+[32mINFO     [0mResults can be found in /home/fursin/CK/local/wa-result/0a5b4f7cb40d5596/20161013-153342/wa-output[32m[0m
+[33mWARNING  [0mThere were errors during execution.[33m[0m
+[33mWARNING  [0mPlease see /home/fursin/CK/local/wa-result/0a5b4f7cb40d5596/20161013-153342/wa-output/run.log[33m[0m

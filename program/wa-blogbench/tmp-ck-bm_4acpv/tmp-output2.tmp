@@ -1,0 +1,20 @@
+[32mINFO     [0mRemoving existing output directory.[32m[0m
+[32mINFO     [0mCreating output directory.[32m[0m
+[32mINFO     [0mInitializing[32m[0m
+[32mINFO     [0mRunning workloads[32m[0m
+[32mINFO     [0mConnecting to device[32m[0m
+[32mINFO     [0mInitializing device[32m[0m
+[32mINFO     [0mInitializing workloads[32m[0m
+[32mINFO     [0mRunning workload 1 blogbench (iteration 1)[32m[0m
+[32mINFO     [0m	Setting up[32m[0m
+[32mINFO     [0m	Executing[32m[0m
+[32mINFO     [0m	Tearing down[32m[0m
+[32mINFO     [0mDevice appears to be unresponsive.[32m[0m
+[32mINFO     [0mJob status was FAILED. Retrying...[32m[0m
+[32mINFO     [0mDevice unresponsive and recovery not possible. Skipping the rest of the run.[32m[0m
+[32mINFO     [0mFinalizing workloads[32m[0m
+[1m[31mCRITICAL [0mGot exit code 969696[1m[31m[0m
+[1m[31mCRITICAL [0mfrom: adb -s 9886674d3359493432 shell "rm -rf /sdcard/wa-working/blogbench"[1m[31m[0m
+[1m[31mCRITICAL [0mSTDOUT: [1m[31m[0m
+[1m[31mCRITICAL [0mSTDERR: error: protocol fault (couldn't read status): Success[1m[31m[0m
+[1m[31mCRITICAL [0m[1m[31m[0m

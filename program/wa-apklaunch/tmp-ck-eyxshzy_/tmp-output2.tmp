@@ -1,0 +1,97 @@
+[32mINFO     [0mRemoving existing output directory.[32m[0m
+[32mINFO     [0mCreating output directory.[32m[0m
+[32mINFO     [0mInitializing[32m[0m
+[32mINFO     [0mRunning workloads[32m[0m
+[32mINFO     [0mConnecting to device[32m[0m
+[32mINFO     [0mInitializing device[32m[0m
+[32mINFO     [0mInitializing workloads[32m[0m
+[32mINFO     [0mRunning workload 1 apklaunch (iteration 1)[32m[0m
+[32mINFO     [0m	Setting up[32m[0m
+[32mINFO     [0mInstalling /home/fursin/.workload_automation/dependencies/apklaunch/com-eembc-coremark-1383.apk[32m[0m
+[32mINFO     [0m	Executing[32m[0m
+[32mINFO     [0mStarting com.eembc.coremark[32m[0m
+[32mINFO     [0mWaiting 0 seconds[32m[0m
+[32mINFO     [0m	Processing result[32m[0m
+[31mERROR    [0mError while Processing workload result[31m[0m
+[31mERROR    [0mTypeError("__new__() takes exactly 10 arguments (11 given)")[31m[0m
+[31mERROR    [0m  File "/usr/local/lib/python2.7/dist-packages/wlauto-2.5.0-py2.7.egg/wlauto/core/execution.py", line 752, in _handle_errors[31m[0m
+[31mERROR    [0m    yield[31m[0m
+[31mERROR    [0m  File "/usr/local/lib/python2.7/dist-packages/wlauto-2.5.0-py2.7.egg/wlauto/core/execution.py", line 697, in _run_workload_iteration[31m[0m
+[31mERROR    [0m    workload.update_result(self.context)[31m[0m
+[31mERROR    [0m  File "/usr/local/lib/python2.7/dist-packages/wlauto-2.5.0-py2.7.egg/wlauto/workloads/apklaunch/__init__.py", line 57, in update_result[31m[0m
+[31mERROR    [0m    app_is_running = bool([p for p in self.device.ps() if p.name == self.package])[31m[0m
+[31mERROR    [0m  File "/usr/local/lib/python2.7/dist-packages/wlauto-2.5.0-py2.7.egg/wlauto/common/android/device.py", line 497, in ps[31m[0m
+[31mERROR    [0m    result.append(PsEntry(*(parts[0:1] + map(int, parts[1:5]) + parts[5:])))[31m[0m
+[31mERROR    [0m[31m[0m
+[32mINFO     [0m	Tearing down[32m[0m
+[32mINFO     [0mJob status was PARTIAL. Retrying...[32m[0m
+[32mINFO     [0mRunning workload 1 apklaunch (iteration 2)[32m[0m
+[32mINFO     [0m	Setting up[32m[0m
+[32mINFO     [0mInstalling /home/fursin/.workload_automation/dependencies/apklaunch/com-eembc-coremark-1383.apk[32m[0m
+[32mINFO     [0m	Executing[32m[0m
+[32mINFO     [0mStarting com.eembc.coremark[32m[0m
+[32mINFO     [0mWaiting 0 seconds[32m[0m
+[32mINFO     [0m	Processing result[32m[0m
+[31mERROR    [0mError while Processing workload result[31m[0m
+[31mERROR    [0mTypeError("__new__() takes exactly 10 arguments (11 given)")[31m[0m
+[31mERROR    [0m  File "/usr/local/lib/python2.7/dist-packages/wlauto-2.5.0-py2.7.egg/wlauto/core/execution.py", line 752, in _handle_errors[31m[0m
+[31mERROR    [0m    yield[31m[0m
+[31mERROR    [0m  File "/usr/local/lib/python2.7/dist-packages/wlauto-2.5.0-py2.7.egg/wlauto/core/execution.py", line 697, in _run_workload_iteration[31m[0m
+[31mERROR    [0m    workload.update_result(self.context)[31m[0m
+[31mERROR    [0m  File "/usr/local/lib/python2.7/dist-packages/wlauto-2.5.0-py2.7.egg/wlauto/workloads/apklaunch/__init__.py", line 57, in update_result[31m[0m
+[31mERROR    [0m    app_is_running = bool([p for p in self.device.ps() if p.name == self.package])[31m[0m
+[31mERROR    [0m  File "/usr/local/lib/python2.7/dist-packages/wlauto-2.5.0-py2.7.egg/wlauto/common/android/device.py", line 497, in ps[31m[0m
+[31mERROR    [0m    result.append(PsEntry(*(parts[0:1] + map(int, parts[1:5]) + parts[5:])))[31m[0m
+[31mERROR    [0m[31m[0m
+[32mINFO     [0m	Tearing down[32m[0m
+[32mINFO     [0mJob status was PARTIAL. Retrying...[32m[0m
+[32mINFO     [0mRunning workload 1 apklaunch (iteration 3)[32m[0m
+[32mINFO     [0m	Setting up[32m[0m
+[32mINFO     [0mInstalling /home/fursin/.workload_automation/dependencies/apklaunch/com-eembc-coremark-1383.apk[32m[0m
+[32mINFO     [0m	Executing[32m[0m
+[32mINFO     [0mStarting com.eembc.coremark[32m[0m
+[32mINFO     [0mWaiting 0 seconds[32m[0m
+[32mINFO     [0m	Processing result[32m[0m
+[31mERROR    [0mError while Processing workload result[31m[0m
+[31mERROR    [0mTypeError("__new__() takes exactly 10 arguments (11 given)")[31m[0m
+[31mERROR    [0m  File "/usr/local/lib/python2.7/dist-packages/wlauto-2.5.0-py2.7.egg/wlauto/core/execution.py", line 752, in _handle_errors[31m[0m
+[31mERROR    [0m    yield[31m[0m
+[31mERROR    [0m  File "/usr/local/lib/python2.7/dist-packages/wlauto-2.5.0-py2.7.egg/wlauto/core/execution.py", line 697, in _run_workload_iteration[31m[0m
+[31mERROR    [0m    workload.update_result(self.context)[31m[0m
+[31mERROR    [0m  File "/usr/local/lib/python2.7/dist-packages/wlauto-2.5.0-py2.7.egg/wlauto/workloads/apklaunch/__init__.py", line 57, in update_result[31m[0m
+[31mERROR    [0m    app_is_running = bool([p for p in self.device.ps() if p.name == self.package])[31m[0m
+[31mERROR    [0m  File "/usr/local/lib/python2.7/dist-packages/wlauto-2.5.0-py2.7.egg/wlauto/common/android/device.py", line 497, in ps[31m[0m
+[31mERROR    [0m    result.append(PsEntry(*(parts[0:1] + map(int, parts[1:5]) + parts[5:])))[31m[0m
+[31mERROR    [0m[31m[0m
+[32mINFO     [0m	Tearing down[32m[0m
+[32mINFO     [0mJob status was PARTIAL. Retrying...[32m[0m
+[32mINFO     [0mRunning workload 1 apklaunch (iteration 4)[32m[0m
+[32mINFO     [0m	Setting up[32m[0m
+[32mINFO     [0mInstalling /home/fursin/.workload_automation/dependencies/apklaunch/com-eembc-coremark-1383.apk[32m[0m
+[32mINFO     [0m	Executing[32m[0m
+[32mINFO     [0mStarting com.eembc.coremark[32m[0m
+[32mINFO     [0mWaiting 0 seconds[32m[0m
+[32mINFO     [0m	Processing result[32m[0m
+[31mERROR    [0mError while Processing workload result[31m[0m
+[31mERROR    [0mTypeError("__new__() takes exactly 10 arguments (11 given)")[31m[0m
+[31mERROR    [0m  File "/usr/local/lib/python2.7/dist-packages/wlauto-2.5.0-py2.7.egg/wlauto/core/execution.py", line 752, in _handle_errors[31m[0m
+[31mERROR    [0m    yield[31m[0m
+[31mERROR    [0m  File "/usr/local/lib/python2.7/dist-packages/wlauto-2.5.0-py2.7.egg/wlauto/core/execution.py", line 697, in _run_workload_iteration[31m[0m
+[31mERROR    [0m    workload.update_result(self.context)[31m[0m
+[31mERROR    [0m  File "/usr/local/lib/python2.7/dist-packages/wlauto-2.5.0-py2.7.egg/wlauto/workloads/apklaunch/__init__.py", line 57, in update_result[31m[0m
+[31mERROR    [0m    app_is_running = bool([p for p in self.device.ps() if p.name == self.package])[31m[0m
+[31mERROR    [0m  File "/usr/local/lib/python2.7/dist-packages/wlauto-2.5.0-py2.7.egg/wlauto/common/android/device.py", line 497, in ps[31m[0m
+[31mERROR    [0m    result.append(PsEntry(*(parts[0:1] + map(int, parts[1:5]) + parts[5:])))[31m[0m
+[31mERROR    [0m[31m[0m
+[32mINFO     [0m	Tearing down[32m[0m
+[31mERROR    [0mExceeded maxium number of retries. Abandoning job.[31m[0m
+[32mINFO     [0mFinalizing workloads[32m[0m
+[32mINFO     [0mFinalizing.[32m[0m
+[32mINFO     [0mProcessing overall results[32m[0m
+[32mINFO     [0mStatus available in /home/fursin/CK/local/wa-result/929b4abfa185e8f7/20161011-222008/wa-output/status.txt[32m[0m
+[32mINFO     [0mDone.[32m[0m
+[32mINFO     [0mRun duration: 32 seconds[32m[0m
+[32mINFO     [0mRan a total of 4 iterations: 4 PARTIAL[32m[0m
+[32mINFO     [0mResults can be found in /home/fursin/CK/local/wa-result/929b4abfa185e8f7/20161011-222008/wa-output[32m[0m
+[33mWARNING  [0mThere were errors during execution.[33m[0m
+[33mWARNING  [0mPlease see /home/fursin/CK/local/wa-result/929b4abfa185e8f7/20161011-222008/wa-output/run.log[33m[0m

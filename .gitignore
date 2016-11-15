@@ -1,0 +1,8 @@
+build
+build/*
+MANIFEST
+*.pyc
+__pycache__
+.cache/
+.coverage
+htmlcov

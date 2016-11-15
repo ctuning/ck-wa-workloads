@@ -1,0 +1,19 @@
+[32mINFO     [0mRemoving existing output directory.[32m[0m
+[32mINFO     [0mCreating output directory.[32m[0m
+[32mINFO     [0mInitializing[32m[0m
+[32mINFO     [0mRunning workloads[32m[0m
+[32mINFO     [0mConnecting to device[32m[0m
+[32mINFO     [0mInitializing device[32m[0m
+[32mINFO     [0mInitializing workloads[32m[0m
+[32mINFO     [0mRunning workload 1 googlemap (iteration 1)[32m[0m
+[32mINFO     [0m	Setting up[32m[0m
+[32mINFO     [0m	Skipping the rest of the iterations for this spec.[32m[0m
+[32mINFO     [0mGot CTRL-C. Finalizing run... (CTRL-C again to abort).[32m[0m
+[32mINFO     [0mFinalizing workloads[32m[0m
+[32mINFO     [0mFinalizing.[32m[0m
+[32mINFO     [0mProcessing overall results[32m[0m
+[32mINFO     [0mStatus available in /home/fursin/CK/local/wa-result/4d02ad3bc984dada/20161011-232842/wa-output/status.txt[32m[0m
+[32mINFO     [0mDone.[32m[0m
+[32mINFO     [0mRun duration: 26 seconds[32m[0m
+[32mINFO     [0mRan a total of 1 iterations: 1 ABORTED[32m[0m
+[32mINFO     [0mResults can be found in /home/fursin/CK/local/wa-result/4d02ad3bc984dada/20161011-232842/wa-output[32m[0m

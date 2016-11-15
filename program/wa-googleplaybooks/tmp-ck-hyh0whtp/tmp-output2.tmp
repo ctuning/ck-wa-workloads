@@ -1,0 +1,77 @@
+[32mINFO     [0mRemoving existing output directory.[32m[0m
+[32mINFO     [0mCreating output directory.[32m[0m
+[32mINFO     [0mInitializing[32m[0m
+[32mINFO     [0mRunning workloads[32m[0m
+[32mINFO     [0mConnecting to device[32m[0m
+[32mINFO     [0mInitializing device[32m[0m
+[32mINFO     [0mInitializing workloads[32m[0m
+[32mINFO     [0mRunning workload 1 googleplaybooks (iteration 1)[32m[0m
+[32mINFO     [0m	Setting up[32m[0m
+[32mINFO     [0m	Executing[32m[0m
+[31mERROR    [0mError while running workload:[31m[0m
+[31mERROR    [0m	INSTRUMENTATION_STATUS: numtests=1[31m[0m
+[31mERROR    [0m	INSTRUMENTATION_STATUS: stream=[31m[0m
+[31mERROR    [0m	com.arm.wlauto.uiauto.googleplaybooks.UiAutomation:[31m[0m
+[31mERROR    [0m	INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner[31m[0m
+[31mERROR    [0m	INSTRUMENTATION_STATUS: test=runUiAutomation[31m[0m
+[31mERROR    [0m	INSTRUMENTATION_STATUS: class=com.arm.wlauto.uiauto.googleplaybooks.UiAutomation[31m[0m
+[31mERROR    [0m	INSTRUMENTATION_STATUS: current=1[31m[0m
+[31mERROR    [0m	INSTRUMENTATION_STATUS_CODE: 1[31m[0m
+[31mERROR    [0m	INSTRUMENTATION_STATUS: numtests=1[31m[0m
+[31mERROR    [0m	INSTRUMENTATION_STATUS: stream=[31m[0m
+[31mERROR    [0m	Error in runUiAutomation:[31m[0m
+[31mERROR    [0m	com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[RESOURCE_ID=com.google.android.apps.books:id/menu_search][31m[0m
+[31mERROR    [0m		at com.android.uiautomator.core.UiObject.click(UiObject.java:396)[31m[0m
+[31mERROR    [0m		at com.arm.wlauto.uiauto.googleplaybooks.UiAutomation.searchForBook(UiAutomation.java:155)[31m[0m
+[31mERROR    [0m		at com.arm.wlauto.uiauto.googleplaybooks.UiAutomation.runUiAutomation(UiAutomation.java:61)[31m[0m
+[31mERROR    [0m		at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)[31m[0m
+[31mERROR    [0m		at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)[31m[0m
+[31mERROR    [0m		at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)[31m[0m
+[31mERROR    [0m		at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)[31m[0m
+[31mERROR    [0m		at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)[31m[0m
+[31mERROR    [0m		at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:257)[31m[0m
+[31mERROR    [0m	[31m[0m
+[31mERROR    [0m	INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner[31m[0m
+[31mERROR    [0m	INSTRUMENTATION_STATUS: test=runUiAutomation[31m[0m
+[31mERROR    [0m	INSTRUMENTATION_STATUS: class=com.arm.wlauto.uiauto.googleplaybooks.UiAutomation[31m[0m
+[31mERROR    [0m	INSTRUMENTATION_STATUS: stack=com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[RESOURCE_ID=com.google.android.apps.books:id/menu_search][31m[0m
+[31mERROR    [0m		at com.android.uiautomator.core.UiObject.click(UiObject.java:396)[31m[0m
+[31mERROR    [0m		at com.arm.wlauto.uiauto.googleplaybooks.UiAutomation.searchForBook(UiAutomation.java:155)[31m[0m
+[31mERROR    [0m		at com.arm.wlauto.uiauto.googleplaybooks.UiAutomation.runUiAutomation(UiAutomation.java:61)[31m[0m
+[31mERROR    [0m		at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)[31m[0m
+[31mERROR    [0m		at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)[31m[0m
+[31mERROR    [0m		at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)[31m[0m
+[31mERROR    [0m		at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)[31m[0m
+[31mERROR    [0m		at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)[31m[0m
+[31mERROR    [0m		at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:257)[31m[0m
+[31mERROR    [0m	[31m[0m
+[31mERROR    [0m	INSTRUMENTATION_STATUS: current=1[31m[0m
+[31mERROR    [0m	INSTRUMENTATION_STATUS_CODE: -1[31m[0m
+[31mERROR    [0m	INSTRUMENTATION_STATUS: stream=[31m[0m
+[31mERROR    [0m	Test results for WatcherResultPrinter=.E[31m[0m
+[31mERROR    [0m	Time: 15.154[31m[0m
+[31mERROR    [0m	[31m[0m
+[31mERROR    [0m	FAILURES!!![31m[0m
+[31mERROR    [0m	Tests run: 1,  Failures: 0,  Errors: 1[31m[0m
+[31mERROR    [0m	[31m[0m
+[31mERROR    [0m	[31m[0m
+[31mERROR    [0m	INSTRUMENTATION_STATUS_CODE: -1[31m[0m
+[31mERROR    [0m	[31m[0m
+[32mINFO     [0m	Processing result[32m[0m
+[32mINFO     [0m	Tearing down[32m[0m
+[32mINFO     [0mJob status was FAILED. Retrying...[32m[0m
+[32mINFO     [0mRunning workload 1 googleplaybooks (iteration 2)[32m[0m
+[32mINFO     [0m	Setting up[32m[0m
+[32mINFO     [0m	Executing[32m[0m
+[32mINFO     [0m	Tearing down[32m[0m
+[32mINFO     [0mGot CTRL-C. Finalizing run... (CTRL-C again to abort).[32m[0m
+[32mINFO     [0mFinalizing workloads[32m[0m
+[32mINFO     [0mFinalizing.[32m[0m
+[32mINFO     [0mProcessing overall results[32m[0m
+[32mINFO     [0mStatus available in /home/fursin/CK/local/wa-result/cc0b04fe4137a87b/20161012-001519/wa-output/status.txt[32m[0m
+[32mINFO     [0mDone.[32m[0m
+[32mINFO     [0mRun duration: 1 minute[32m[0m
+[32mINFO     [0mRan a total of 2 iterations: 1 FAILED, 1 ABORTED[32m[0m
+[32mINFO     [0mResults can be found in /home/fursin/CK/local/wa-result/cc0b04fe4137a87b/20161012-001519/wa-output[32m[0m
+[33mWARNING  [0mThere were errors during execution.[33m[0m
+[33mWARNING  [0mPlease see /home/fursin/CK/local/wa-result/cc0b04fe4137a87b/20161012-001519/wa-output/run.log[33m[0m

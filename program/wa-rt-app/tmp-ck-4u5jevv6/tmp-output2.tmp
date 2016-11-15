@@ -1,0 +1,26 @@
+Traceback (most recent call last):
+  File "/usr/local/bin/wa", line 4, in <module>
+    __import__('pkg_resources').run_script('wlauto==2.5.0', 'wa')
+  File "/usr/lib/python2.7/dist-packages/pkg_resources/__init__.py", line 719, in run_script
+    self.require(requires)[0].run_script(script_name, ns)
+  File "/usr/lib/python2.7/dist-packages/pkg_resources/__init__.py", line 1504, in run_script
+    exec(code, namespace, namespace)
+  File "/usr/local/lib/python2.7/dist-packages/wlauto-2.5.0-py2.7.egg/EGG-INFO/scripts/wa", line 16, in <module>
+    from wlauto.core.entry_point import main
+  File "/usr/local/lib/python2.7/dist-packages/wlauto-2.5.0-py2.7.egg/wlauto/__init__.py", line 31, in <module>
+    from wlauto.common.android.workload import (UiAutomatorWorkload, ApkWorkload, AndroidBenchmark,  # NOQA
+  File "/usr/local/lib/python2.7/dist-packages/wlauto-2.5.0-py2.7.egg/wlauto/common/android/workload.py", line 32, in <module>
+    import wlauto.utils.statedetect as state_detector
+  File "/usr/local/lib/python2.7/dist-packages/wlauto-2.5.0-py2.7.egg/wlauto/utils/statedetect.py", line 31, in <module>
+    import numpy as np
+  File "/usr/local/lib/python2.7/dist-packages/numpy/__init__.py", line 142, in <module>
+    from . import add_newdocs
+  File "/usr/local/lib/python2.7/dist-packages/numpy/add_newdocs.py", line 13, in <module>
+    from numpy.lib import add_newdoc
+  File "/usr/local/lib/python2.7/dist-packages/numpy/lib/__init__.py", line 8, in <module>
+    from .type_check import *
+  File "/usr/local/lib/python2.7/dist-packages/numpy/lib/type_check.py", line 11, in <module>
+    import numpy.core.numeric as _nx
+  File "/usr/local/lib/python2.7/dist-packages/numpy/core/__init__.py", line 14, in <module>
+    from . import multiarray
+KeyboardInterrupt

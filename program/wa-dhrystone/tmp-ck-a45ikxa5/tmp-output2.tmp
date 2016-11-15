@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/usr/local/bin/wa", line 4, in <module>
+    __import__('pkg_resources').run_script('wlauto==2.5.0', 'wax')
+  File "/usr/local/lib/python2.7/dist-packages/pkg_resources/__init__.py", line 746, in run_script
+    self.require(requires)[0].run_script(script_name, ns)
+  File "/usr/local/lib/python2.7/dist-packages/pkg_resources/__init__.py", line 1493, in run_script
+    raise ResolutionError("No script named %r" % script_name)
+pkg_resources.ResolutionError: No script named 'wax'
