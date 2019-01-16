@@ -6,8 +6,6 @@
   "clean_dirs": [
     "wa_output"
   ],
-  "compiler_env": "CK_CC",
-  "data_name": "dhrystone",
   "compile_deps": {
     "compiler": {
       "local": "yes",
@@ -16,6 +14,8 @@
       "tags": "compiler,lang-c"
     }
   },
+  "compiler_env": "CK_CC",
+  "data_name": "dhrystone",
   "extra_ld_vars": "$<<CK_EXTRA_LIB_M>>$",
   "main_language": "c",
   "process_in_tmp": "yes",
@@ -37,8 +37,8 @@
     }
   },
   "run_vars": {
-   "CK_DHRYSTONE_ITERS":500,
-   "CK_DHRYSTONE_THREADS":4
+    "CK_DHRYSTONE_ITERS": 500,
+    "CK_DHRYSTONE_THREADS": 4
   },
   "source_files": [
     "dhrystone.c"

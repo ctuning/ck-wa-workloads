@@ -1,116 +1,116 @@
 {
-  "backup_data_uid": "0f3984713a489cd9", 
+  "backup_data_uid": "0f3984713a489cd9",
   "ck_to_env": {
     "CK_WA_SCRIPTS_PATH": "script:39157fb314f399ae"
-  }, 
+  },
   "clean_dirs": [
     "wa_output"
-  ], 
-  "data_name": "WA workload: spec2000", 
+  ],
+  "data_name": "WA workload: spec2000",
   "deps": {
     "wa": {
-      "env_key": "WA", 
-      "force_target_as_host": "yes", 
-      "local": "yes", 
-      "name": "ARM Workload Automation", 
-      "sort": 10, 
+      "env_key": "WA",
+      "force_target_as_host": "yes",
+      "local": "yes",
+      "name": "ARM Workload Automation",
+      "sort": 10,
       "tags": "tool,wa"
     }
-  }, 
-  "no_compile": "yes", 
-  "no_target_file": "yes", 
+  },
+  "no_compile": "yes",
+  "no_target_file": "yes",
   "params": {
     "benchmarks": {
-      "allowed_values": null, 
-      "default": null, 
-      "desc": "Specfiles the SPEC benchmarks to run.", 
-      "mandatory": null, 
+      "allowed_values": null,
+      "default": null,
+      "desc": "Specfiles the SPEC benchmarks to run.",
+      "mandatory": null,
       "type": "list_or_string"
-    }, 
+    },
     "force_extract_assets": {
-      "allowed_values": null, 
-      "default": false, 
-      "desc": "if set to ``True``, will extract assets from the bundle, even if they are already extracted. Note: this option implies ``force_push_assets``.", 
-      "mandatory": null, 
+      "allowed_values": null,
+      "default": false,
+      "desc": "if set to ``True``, will extract assets from the bundle, even if they are already extracted. Note: this option implies ``force_push_assets``.",
+      "mandatory": null,
       "type": "boolean"
-    }, 
+    },
     "force_push_assets": {
-      "allowed_values": null, 
-      "default": false, 
-      "desc": "If set to ``True``, assets will be pushed to device even if they're already present.", 
-      "mandatory": null, 
+      "allowed_values": null,
+      "default": false,
+      "desc": "If set to ``True``, assets will be pushed to device even if they're already present.",
+      "mandatory": null,
       "type": "boolean"
-    }, 
+    },
     "mode": {
       "allowed_values": [
-        "speed", 
+        "speed",
         "rate"
-      ], 
-      "default": "speed", 
-      "desc": "SPEC benchmarks can report either speed to execute or throughput/rate. In the latter case, several \"threads\" will be spawned.", 
-      "mandatory": null, 
+      ],
+      "default": "speed",
+      "desc": "SPEC benchmarks can report either speed to execute or throughput/rate. In the latter case, several \"threads\" will be spawned.",
+      "mandatory": null,
       "type": "str"
-    }, 
+    },
     "modules": {
-      "allowed_values": null, 
-      "default": null, 
-      "desc": "Lists the modules to be loaded by this extension. A module is a plug-in that further extends functionality of an extension.", 
-      "mandatory": null, 
+      "allowed_values": null,
+      "default": null,
+      "desc": "Lists the modules to be loaded by this extension. A module is a plug-in that further extends functionality of an extension.",
+      "mandatory": null,
       "type": "list"
-    }, 
+    },
     "number_of_threads": {
-      "allowed_values": null, 
-      "default": null, 
-      "desc": "Specify the number of \"threads\" to be used in 'rate' mode. (Note: on big.LITTLE systems this is the number of threads, for *each cluster*).", 
-      "mandatory": null, 
+      "allowed_values": null,
+      "default": null,
+      "desc": "Specify the number of \"threads\" to be used in 'rate' mode. (Note: on big.LITTLE systems this is the number of threads, for *each cluster*).",
+      "mandatory": null,
       "type": "integer"
-    }, 
+    },
     "timeout": {
-      "allowed_values": null, 
-      "default": 1200, 
-      "desc": "Timemout, in seconds, for the execution of single spec test.", 
-      "mandatory": null, 
+      "allowed_values": null,
+      "default": 1200,
+      "desc": "Timemout, in seconds, for the execution of single spec test.",
+      "mandatory": null,
       "type": "integer"
     }
-  }, 
+  },
   "print_files_after_run": [
-    "tmp-output2.tmp", 
-    "wa_output/status.txt", 
+    "tmp-output2.tmp",
+    "wa_output/status.txt",
     "wa_output/spec2000_1_1/result.txt"
-  ], 
-  "process_in_tmp": "yes", 
-  "program": "yes", 
+  ],
+  "process_in_tmp": "yes",
+  "program": "yes",
   "required_device_access_type": [
-    "wa_android", 
+    "wa_android",
     "wa_linux"
-  ], 
+  ],
   "run_cmds": {
     "default": {
-      "ignore_return_code": "no", 
+      "ignore_return_code": "no",
       "run_time": {
-        "fine_grain_timer_file": "tmp-ck-timer.json", 
+        "fine_grain_timer_file": "tmp-ck-timer.json",
         "post_process_cmds": [
           "python $<<CK_WA_SCRIPTS_PATH>>$$#dir_sep#$postprocess_workload.py"
-        ], 
-        "post_process_via_ck": "yes", 
+        ],
+        "post_process_via_ck": "yes",
         "pre_process_via_ck": {
-          "data_uoa": "process-wa", 
-          "module_uoa": "script", 
+          "data_uoa": "process-wa",
+          "module_uoa": "script",
           "script_name": "preprocess_workload"
-        }, 
-        "run_cmd_main": "wa run $<<CK_WA_CMD>>$", 
-        "run_cmd_out1": "tmp-output1.tmp", 
-        "run_cmd_out2": "tmp-output2.tmp", 
+        },
+        "run_cmd_main": "wa run $<<CK_WA_CMD>>$",
+        "run_cmd_out1": "tmp-output1.tmp",
+        "run_cmd_out2": "tmp-output2.tmp",
         "run_output_files": []
       }
     }
-  }, 
-  "run_via_third_party": "yes", 
+  },
+  "run_via_third_party": "yes",
   "tags": [
-    "wa", 
-    "workload-automation", 
+    "wa",
+    "workload-automation",
     "spec2000"
-  ], 
-  "wa_alias": "spec2000", 
+  ],
+  "wa_alias": "spec2000",
   "wa_desc": "SPEC2000 benchmarks measuring processor, memory and compiler"
 }
